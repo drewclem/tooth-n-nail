@@ -1,11 +1,11 @@
 <template>
-	<div class="container">
-		Hello
-	</div>
+	<footer> </footer>
 </template>
 
 <script>
 	export default {
-		name: 'Home',
+		name: 'TNFooter',
 	};
 </script>
+
+<style scoped></style>

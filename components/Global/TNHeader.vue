@@ -1,11 +1,9 @@
 <template>
-	<div class="container">
-		Hello
-	</div>
+	<header> </header>
 </template>
 
 <script>
 	export default {
-		name: 'Home',
+		name: 'TNHeader',
 	};
 </script>
