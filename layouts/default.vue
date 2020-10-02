@@ -1,7 +1,7 @@
 <template>
 	<div id="app">
 		<TNHeader />
-		<main class="mt-24">
+		<main class="px-5 lg:px-0 mt-12 lg:mt-24">
 			<Nuxt />
 		</main>
 	</div>

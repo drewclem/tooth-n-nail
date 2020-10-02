@@ -1,27 +1,63 @@
+<script>
+	import HeaderBG from '@/assets/svg/HeaderBG';
+	import TNLogo from '@/assets/svg/TNLogo';
+	import FacebookIcon from '@/assets/svg/FacebookIcon';
+	import InstagramIcon from '@/assets/svg/InstagramIcon';
+	import PhoneIcon from '@/assets/svg/PhoneIcon';
+	import MobileMenuIcon from '@/assets/svg/MobileMenuIcon';
+
+	export default {
+		name: 'TNHeader',
+		components: {
+			HeaderBG,
+			TNLogo,
+			FacebookIcon,
+			InstagramIcon,
+			PhoneIcon,
+			MobileMenuIcon,
+		},
+		data() {
+			return {
+				navOpen: false,
+			};
+		},
+		methods: {
+			toggleMobileMenu() {
+				console.log(this.navOpen);
+				this.navOpen = !this.navOpen;
+			},
+		},
+	};
+</script>
+
 <template>
 	<header class="relative top-0 w-full bg-black-900">
-		<div class="container relative mx-auto px-5 lg:px-0 py-2 flex items-center justify-between z-1">
+		<div
+			class="container relative mx-auto px-5 xxl:px-0 py-2 flex items-center justify-between z-1"
+		>
 			<nuxt-link to="/">
-				<TNLogo class="w-24 z-50" />
+				<TNLogo class="w-20 lg:w-24 z-50" />
 			</nuxt-link>
 
-			<nav class="text-yellow-200 font-display uppercase font-medium italic text-lg ml-12">
+			<nav
+				class="desktop-nav hidden lg:block text-yellow-200 font-display uppercase font-medium italic lg:text-lg lg:ml-16"
+			>
 				<ul class="flex">
-					<li class="mr-16">
+					<li class="mr-4 lg:mr-8">
 						<nuxt-link
 							to="/artists"
 							class="opacity-50 hover:opacity-100 transition duration-150 ease-in-out px-4"
 							>Artists</nuxt-link
 						>
 					</li>
-					<li class="mr-16">
+					<li class="mr-4 lg:mr-8">
 						<nuxt-link
 							to="/q&a"
 							class="opacity-50 hover:opacity-100 transition duration-150 ease-in-out px-4"
 							>Q&amp;A</nuxt-link
 						>
 					</li>
-					<li class="mr-16">
+					<li class="mr-4 lg:mr-8">
 						<nuxt-link
 							to="/aftercare"
 							class="opacity-50 hover:opacity-100 transition duration-150 ease-in-out px-4"
@@ -38,9 +74,9 @@
 				</ul>
 			</nav>
 
-			<div class="social-icons text-sm flex items-center">
+			<div class="social-icons text-sm hidden lg:flex items-center">
 				<a
-					class="flex items-center text-yellow-200 opacity-50 hover:opacity-100 mr-8 font-display italic tracking-wide cursor-pointer transition duration-150 ease-in-out"
+					class="hidden lg:flexitems-center text-yellow-200 opacity-50 hover:opacity-100 mr-4 lg:mr-8 font-display italic tracking-wide cursor-pointer transition duration-150 ease-in-out"
 				>
 					<PhoneIcon class="w-3 mr-2 opacity-50 mt-px" />
 					478-257-6155
@@ -58,6 +94,13 @@
 					<InstagramIcon class="w-4 text-yellow-200" />
 				</a>
 			</div>
+			<!--Desktop nav ends here-->
+
+			<div class="lg:hidden">
+				<button class="w-10 py-1" @click.prevent="toggleMobileMenu">
+					<MobileMenuIcon class="text-yellow-500 w-full h-full" :nav-open="navOpen" />
+				</button>
+			</div>
 		</div>
 
 		<HeaderBG class="header-bg mt-2 absolute text-yellow-200" />
@@ -65,38 +108,32 @@
 	</header>
 </template>
 
-<script>
-	import HeaderBG from '@/assets/svg/HeaderBG';
-	import TNLogo from '@/assets/svg/TNLogo';
-	import FacebookIcon from '@/assets/svg/FacebookIcon';
-	import InstagramIcon from '@/assets/svg/InstagramIcon';
-	import PhoneIcon from '@/assets/svg/PhoneIcon';
-
-	export default {
-		name: 'TNHeader',
-		components: {
-			HeaderBG,
-			TNLogo,
-			FacebookIcon,
-			InstagramIcon,
-			PhoneIcon,
-		},
-	};
-</script>
-
-<style scoped>
+<style lang="postcss" scoped>
 	header {
-		height: 40px;
+		height: 50px;
 	}
 
 	.header-bg {
-		top: 40px;
+		top: 49px;
 		z-index: -1;
 	}
 
-	.nuxt-link-active {
+	nav .nuxt-link-active {
 		background-image: url(~assets/svg/single-diamond.svg);
 		background-repeat: no-repeat;
 		opacity: 1;
+	}
+
+	button {
+		outline: none;
+	}
+
+	@screen lg {
+		header {
+			heigth: 40px;
+		}
+		.header-bg {
+			top: 39px;
+		}
 	}
 </style>
