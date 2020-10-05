@@ -17,7 +17,7 @@
 		class="mobile-menu-icon fill-current"
 	>
 		<path
-			class="transition duration-300 ease-in-out transform"
+			class="transition duration-200 ease-in-out transform"
 			:class="`${navOpen ? 'rotate-45 scale-105 -translate-y-1 translate-x-2' : ''}`"
 			d="M8.3,2C8.2,2,8.1,2.1,8,2.1c-0.3,0-0.5,0-0.8,0C7,2.1,6.7,2.2,6.5,2.2c-0.1,0-0.3,0-0.4,0.1
 	c-0.4,0.1-0.7,0-0.8,0.2C5,2.7,4.7,2.8,4.5,2.9c0,0-0.1,0-0.1,0C3.8,3.2,3.4,3.7,2.7,4C2.7,4.1,2.6,4.3,2.5,4.4
@@ -56,7 +56,7 @@
 	c0.1,0.1,0.2,0.1,0.3,0.1c0,0.2-0.3,0.1-0.3,0.2c-0.1,0-0.2,0-0.2,0.1c-0.2-0.1-0.3,0-0.5,0C52.2,7,52.1,7,52.1,6.9L52.1,6.9z"
 		/>
 		<path
-			class="transition duration-300 ease-in-out transform"
+			class="transition duration-200 ease-in-out transform"
 			:class="`${navOpen ? '-rotate-45 translate-y-4 -translate-x-4 scale-105' : ''}`"
 			d="M8.3,29.7c-0.1,0-0.2,0.1-0.4,0.1c-0.3,0-0.5-0.1-0.8-0.1c-0.2,0-0.5,0.1-0.7,0.2c-0.1,0-0.3,0-0.4,0.1
 	c-0.4,0.1-0.7,0-0.8,0.2c-0.3,0.1-0.6,0.2-0.8,0.3c0,0-0.1,0-0.1,0c-0.6,0.3-0.9,0.8-1.6,1.1c-0.1,0.2-0.1,0.3-0.2,0.5
@@ -96,7 +96,7 @@
 	C52.2,34.7,52.1,34.7,52.1,34.6L52.1,34.6z"
 		/>
 		<path
-			class="transition duration-300 ease-in-out"
+			class="transition duration-200 ease-in-out"
 			:class="`${navOpen ? 'opacity-0' : ''}`"
 			d="M8.3,16.9C8.2,16.9,8.1,17,8,17c-0.3,0-0.5,0-0.8,0c-0.2,0-0.5,0.1-0.7,0.2c-0.1,0-0.3,0-0.4,0.1
 	c-0.4,0.1-0.7,0-0.8,0.2c-0.3,0.1-0.6,0.2-0.8,0.3c0,0-0.1,0-0.1,0c-0.6,0.3-0.9,0.8-1.6,1c-0.1,0.2-0.1,0.3-0.2,0.4
