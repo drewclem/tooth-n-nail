@@ -45,70 +45,72 @@
 
 <template>
 	<header class="relative top-0 w-full bg-black-900">
-		<HeaderBG class="header-bg hidden lg:block yellow-under mt-2 absolute text-yellow-200" />
+		<HeaderBG class="absolute hidden mt-2 text-yellow-200 header-bg lg:block yellow-under" />
 		<HeaderBG
-			class="header-bg absolute text-black-900 pointer-events-none transition duration-100 ease-in-out"
+			class="absolute transition duration-100 ease-in-out pointer-events-none header-bg text-black-900"
 		/>
 
 		<div
-			class="lg:container bg-black-900 relative mx-auto px-5 xxl:px-0 py-4 lg:py-2 flex items-center justify-between z-1"
+			class="relative flex items-center justify-between px-5 py-4 mx-auto lg:container bg-black-900 xxl:px-0 lg:py-2 z-1"
 		>
 			<nuxt-link to="/">
-				<TNLogo class="w-20 lg:w-24 z-50" />
+				<TNLogo class="z-50 w-20 lg:w-24" />
 			</nuxt-link>
 
 			<nav
-				class="desktop-nav hidden lg:block text-yellow-200 font-display uppercase font-medium italic lg:text-lg lg:ml-16"
+				class="hidden italic font-medium text-yellow-200 uppercase desktop-nav lg:block font-display lg:text-lg lg:ml-16"
 			>
 				<ul class="flex">
 					<li class="mr-4 lg:mr-8">
 						<nuxt-link
 							to="/artists"
-							class="opacity-50 hover:opacity-100 transition duration-150 ease-in-out px-4"
-							>Artists</nuxt-link
-						>
+							class="px-4 transition duration-150 ease-in-out opacity-50 hover:opacity-100"
+							>Artists
+						</nuxt-link>
 					</li>
 					<li class="mr-4 lg:mr-8">
 						<nuxt-link
 							to="/q&a"
-							class="opacity-50 hover:opacity-100 transition duration-150 ease-in-out px-4"
-							>Q&amp;A</nuxt-link
-						>
+							class="px-4 transition duration-150 ease-in-out opacity-50 hover:opacity-100"
+							>Q&amp;A
+						</nuxt-link>
 					</li>
 					<li class="mr-4 lg:mr-8">
 						<nuxt-link
 							to="/aftercare"
-							class="opacity-50 hover:opacity-100 transition duration-150 ease-in-out px-4"
-							>Aftercare</nuxt-link
+							class="px-4 transition duration-150 ease-in-out opacity-50 hover:opacity-100"
 						>
+							Aftercare
+						</nuxt-link>
 					</li>
 					<li>
 						<nuxt-link
 							to="/contact"
-							class="opacity-50 hover:opacity-100 transition duration-150 ease-in-out px-4"
-							>Contact</nuxt-link
+							class="px-4 transition duration-150 ease-in-out opacity-50 hover:opacity-100"
 						>
+							Contact
+						</nuxt-link>
 					</li>
 				</ul>
 			</nav>
 
-			<div class="social-icons text-sm hidden lg:flex items-center">
+			<div class="items-center hidden text-sm social-icons lg:flex">
 				<a
-					class="hidden lg:flex items-center text-yellow-200 opacity-50 hover:opacity-100 mr-4 lg:mr-8 font-display italic tracking-wide cursor-pointer transition duration-150 ease-in-out"
+					class="items-center hidden mr-4 italic tracking-wide text-yellow-200 transition duration-150 ease-in-out opacity-50 cursor-pointer lg:flex hover:opacity-100 lg:mr-8 font-display"
 					href="tel:478-257-6155"
 				>
-					<PhoneIcon class="w-3 mr-2 opacity-50 mt-px" />
+					<PhoneIcon class="w-3 mt-px mr-2 opacity-50" />
 					478-257-6155
 				</a>
 
 				<a
-					class="opacity-75 hover:opacity-100 transition duration-150 ease-in-out mr-4 cursor-pointer"
+					class="mr-4 transition duration-150 ease-in-out opacity-75 cursor-pointer hover:opacity-100"
 				>
 					<FacebookIcon class="w-3 text-yellow-200" />
 				</a>
 
 				<a
-					class="opacity-75 hover:opacity-100 transition duration-150 ease-in-out mr-4 cursor-pointer"
+					class="mr-4 transition duration-150 ease-in-out opacity-75 cursor-pointer hover:opacity-100"
 				>
 					<InstagramIcon class="w-4 text-yellow-200" />
 				</a>
@@ -117,13 +119,13 @@
 
 			<div class="lg:hidden">
 				<button class="w-10 py-1" @click.prevent="toggleMobileMenu">
-					<MobileMenuIcon class="text-yellow-500 w-full h-full" :nav-open="navOpen" />
+					<MobileMenuIcon class="w-full h-full text-yellow-500" :nav-open="navOpen" />
 				</button>
 			</div>
 		</div>
 
 		<nav
-			class="mobile-nav absolute w-full block lg:hidden text-yellow-200 font-display uppercase font-medium italic text-lg pt-12 pb-4 bg-yellow-200 transition ease-in-out duration-300"
+			class="absolute block w-full pt-12 pb-4 text-lg italic font-medium text-yellow-200 uppercase transition duration-300 ease-in-out bg-yellow-200 mobile-nav lg:hidden font-display"
 			:class="navOpen ? 'active' : ''"
 		>
 			<ul class="flex flex-col text-center text-black-900">
@@ -142,7 +144,7 @@
 			</ul>
 
 			<HeaderBG
-				class="yellow-under mt-2 absolute text-yellow-200"
+				class="absolute mt-2 text-yellow-200 yellow-under"
 				style="width: 1200px; transform: translateX(-80px);"
 			/>
 		</nav>

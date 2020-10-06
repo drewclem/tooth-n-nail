@@ -1,1 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,700;1,300;1,500;1,700&display=swap');
+
+.btn {
+	@apply px-12 py-1 italic font-normal tracking-widest text-white uppercase transition duration-200 ease-in-out bg-yellow-500;
+}
+
+.btn:hover {
+	@apply text-yellow-500 bg-black-900;
+}
