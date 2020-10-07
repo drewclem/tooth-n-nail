@@ -65,14 +65,16 @@
 						<nuxt-link
 							to="/artists"
 							class="px-4 transition duration-150 ease-in-out opacity-50 hover:opacity-100"
-							>Artists
+						>
+							Artists
 						</nuxt-link>
 					</li>
 					<li class="mr-4 lg:mr-8">
 						<nuxt-link
 							to="/q&a"
 							class="px-4 transition duration-150 ease-in-out opacity-50 hover:opacity-100"
-							>Q&amp;A
+						>
+							Q&amp;A
 						</nuxt-link>
 					</li>
 					<li class="mr-4 lg:mr-8">
