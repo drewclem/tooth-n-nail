@@ -43,13 +43,15 @@
 					<p class="text-lg opacity-75">Illustrative/Realism</p>
 				</div>
 
-				<div class="absolute bottom-0 flex w-full mt-12 mb-6">
+				<div class="absolute bottom-0 flex w-full mb-6">
 					<div class="w-1/4 h-64 mr-4 bg-gray-500"></div>
 					<div class="w-1/4 h-64 mr-4 bg-gray-500"></div>
 					<div class="w-1/4 h-64 mr-4 bg-gray-500"></div>
 				</div>
 
-				<img src="../assets/images/headshot.png" class="z-50 w-2/5 -mt-56" />
+				<div class="z-50 w-2/5 -mt-56">
+					<img src="../assets/images/headshot.png" class="w-full" />
+				</div>
 			</div>
 		</div>
 	</div>
