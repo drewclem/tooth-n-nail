@@ -31,7 +31,10 @@
 			<div class="px-5 lg:px-0">
 				<div class="container relative flex flex-col justify-between mx-auto text-black-900">
 					<div class="mt-10 mb-6 lg:mb-12 italic uppercase">
-						<h2 class="mb-3 lg:mb-6 text-3xl lg:text-5xl font-bold">Featured Artist</h2>
+						<h2 class="flex mb-3 lg:mb-6 text-3xl lg:text-5xl font-bold">
+							<TwoDiamond class="w-8 lg:w-12 transform rotate-180 -mt-2" />
+							Featured Artist
+						</h2>
 
 						<p class="text-lg lg:text-3xl font-medium">Johnny Cool Hat</p>
 
@@ -43,7 +46,7 @@
 						<div class="w-1/4 h-64 mr-4 bg-gray-500"></div>
 						<div class="w-1/4 h-64 mr-4 bg-gray-500"></div>
 
-						<div class="overflow-gradient mr-64" />
+						<div class="overflow-gradient lg:mr-64" />
 					</div>
 
 					<div class="absolute bottom-0 right-0 z-20 w-2/5">
