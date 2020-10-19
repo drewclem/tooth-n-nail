@@ -3,7 +3,7 @@
 		<div class="container mx-auto px-5 lg:px-0">
 			<div class="items-center justify-around transform translate-x-12 hero-wrapper md:flex">
 				<div class="relative flex justify-center mb-6 hero-img">
-					<img src="~assets/images/tattoo.jpg" class="w-3/4 md:w-full" />
+					<img src="~assets/images/tattoo.jpg" />
 				</div>
 
 				<div
@@ -25,14 +25,14 @@
 			</div>
 		</div>
 
-		<div class="featured-artist relative mt-64 text-gray-200 bg-gray-200">
+		<div class="featured-artist relative mt-32 lg:mt-64 text-gray-200 bg-gray-200">
 			<HeaderBG class="fa-bg absolute top-0 transform rotate-180 -mt-24" />
 
-			<div class="px-5 lg:px-0">
+			<div class="px-5 xxl:px-0 pb-12 md:pb-0">
 				<div class="container relative flex flex-col justify-between mx-auto text-black-900">
-					<div class="mt-10 mb-6 lg:mb-12 italic uppercase">
-						<h2 class="flex mb-3 lg:mb-6 text-3xl lg:text-5xl font-bold">
-							<TwoDiamond class="w-8 lg:w-12 transform rotate-180 -mt-2" />
+					<div class="mt-10 mb-12 italic uppercase">
+						<h2 class="flex mb-3 lg:mb-6 text-2xl lg:text-5xl font-bold">
+							<TwoDiamond class="w-6 lg:w-12 transform rotate-180 -mt-2" />
 							Featured Artist
 						</h2>
 
@@ -42,31 +42,62 @@
 					</div>
 
 					<div class="flex w-full mb-6">
-						<div class="w-1/4 h-64 mr-4 bg-gray-500"></div>
-						<div class="w-1/4 h-64 mr-4 bg-gray-500"></div>
-						<div class="w-1/4 h-64 mr-4 bg-gray-500"></div>
+						<FaCarousel />
 
-						<div class="overflow-gradient lg:mr-64" />
+						<div class="overflow-gradient -mr-px" />
 					</div>
 
-					<div class="absolute bottom-0 right-0 z-20 w-2/5">
+					<div class="hidden md:block absolute bottom-0 right-0 z-20 w-2/5 ">
 						<img src="../assets/images/headshot.png" class="w-full" />
 					</div>
 				</div>
 			</div>
 		</div>
+
+		<div class="bg-yellow-500 py-20 relative">
+			<div
+				class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-3 text-black-900 px-5 xxl:px-0"
+			>
+				<div>
+					<h3 class="font-display font-bold mb-6 italic text-3xl">Sterile</h3>
+					<p class="font-display font-light italic w-3/4 opacity-75">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos</p
+					>
+				</div>
+				<div>
+					<h3 class="font-display font-bold mb-6 italic text-3xl">Sterile</h3>
+					<p class="font-display font-light italic w-3/4 opacity-75">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos</p
+					>
+				</div>
+				<div>
+					<h3 class="font-display font-bold mb-6 italic text-3xl">Sterile</h3>
+					<p class="font-display font-light italic w-3/4 opacity-75">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos</p
+					>
+				</div>
+			</div>
+			<HeaderBG class="absolute mt-16 text-yellow-500" />
+		</div>
+
+		<div class="h-64"></div>
 	</div>
 </template>
 
 <script>
 	import HeaderBG from '../assets/svg/HeaderBG';
 	import TwoDiamond from '../assets/svg/TwoDiamond';
+	import FaCarousel from '@/components/Home/FaCarousel';
 
 	export default {
 		name: 'Home',
 		components: {
 			HeaderBG,
 			TwoDiamond,
+			FaCarousel,
 		},
 	};
 </script>
@@ -107,7 +138,7 @@
 		top: 0;
 		right: 0;
 		height: 100%;
-		width: 25vw;
+		width: 15vw;
 		z-index: 1;
 
 		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,1+100 */
@@ -131,5 +162,11 @@
     endColorstr='#ffffff',
     GradientType=1
   ); /* IE6-9 */
+	}
+
+	@screen lg {
+		.overflow-gradient {
+			width: 50vw;
+		}
 	}
 </style>
