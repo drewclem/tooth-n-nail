@@ -1,4 +1,15 @@
 module.exports = {
+	purge: {
+		enabled: true,
+		content: [
+			'./assets/svg/*.vue',
+			'./components/Base/*.vue',
+			'./components/Global/*.vue',
+			'./components/Home/*.vue',
+			'./layouts/*.vue',
+			'./pages/*.vue',
+		],
+	},
 	theme: {
 		extend: {
 			fontFamily: {
