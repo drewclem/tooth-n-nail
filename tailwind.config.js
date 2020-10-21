@@ -14,7 +14,7 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				display: ['Barlow Semi Condensed', '-apple-system', 'sans-serif'],
+				display: ['Barlow Semi Condensed', 'Helvetica', '-apple-system', 'sans-serif'],
 			},
 			colors: {
 				black: {

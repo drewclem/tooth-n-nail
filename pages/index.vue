@@ -9,7 +9,7 @@
 				<div
 					class="text-center uppercase hero-lockup font-display text-black-900 md:text-left md:ml-10"
 				>
-					<h1 class="relative mb-5 text-4xl leading-tight lg:text-6xl">
+					<h1 class="relative mb-5 text-4xl leading-tight lg:text-6xl font-bold">
 						Creativity worth committing to
 					</h1>
 
