@@ -31,12 +31,14 @@
 			<div class="px-5 xxl:px-0 pb-12 md:pb-0">
 				<div class="container relative flex flex-col justify-between mx-auto text-black-900">
 					<div class="mt-10 mb-12 italic uppercase">
-						<h2 class="flex mb-3 lg:mb-6 text-2xl lg:text-5xl font-bold">
-							<TwoDiamond class="w-6 lg:w-12 transform rotate-180 -mt-2" />
-							Featured Artist
-						</h2>
+						<div class="flex flex-row mb-3 lg:mb-6 text-4xl lg:text-5xl font-bold">
+							<span class="-mt-2">
+								<TwoDiamond class="w-6 lg:w-12 transform rotate-180 text-yellow-500" />
+							</span>
+							<h2>Featured Artist</h2>
+						</div>
 
-						<p class="text-lg lg:text-3xl font-medium">Johnny Cool Hat</p>
+						<p class="text-2xl lg:text-3xl font-medium">Johnny Cool Hat</p>
 
 						<p class="text-base lg:text-lg opacity-75">Illustrative/Realism</p>
 					</div>
@@ -60,21 +62,21 @@
 			>
 				<div>
 					<h3 class="font-display font-bold mb-6 italic text-3xl">Sterile</h3>
-					<p class="font-display font-light italic w-3/4 opacity-75">
+					<p class="font-display font-light italic lg:w-3/4 opacity-75">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos</p
 					>
 				</div>
 				<div>
 					<h3 class="font-display font-bold mb-6 italic text-3xl">Quality</h3>
-					<p class="font-display font-light italic w-3/4 opacity-75">
+					<p class="font-display font-light italic lg:w-3/4 opacity-75">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos</p
 					>
 				</div>
 				<div>
 					<h3 class="font-display font-bold mb-6 italic text-3xl">Professional</h3>
-					<p class="font-display font-light italic w-3/4 opacity-75">
+					<p class="font-display font-light italic lg:w-3/4 opacity-75">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos</p
 					>
