@@ -66,21 +66,21 @@
 					>
 				</div>
 				<div>
-					<h3 class="font-display font-bold mb-6 italic text-3xl">Sterile</h3>
+					<h3 class="font-display font-bold mb-6 italic text-3xl">Quality</h3>
 					<p class="font-display font-light italic w-3/4 opacity-75">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos</p
 					>
 				</div>
 				<div>
-					<h3 class="font-display font-bold mb-6 italic text-3xl">Sterile</h3>
+					<h3 class="font-display font-bold mb-6 italic text-3xl">Professional</h3>
 					<p class="font-display font-light italic w-3/4 opacity-75">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos</p
 					>
 				</div>
 			</div>
-			<HeaderBG class="absolute mt-16 text-yellow-500" />
+			<HeaderBG class="absolute bottom-0 ys-bg -mb-24 text-yellow-500" />
 		</div>
 
 		<div class="h-64"></div>
@@ -111,7 +111,8 @@
 		text-shadow: 5px 5px 0px #f9ebd5;
 	}
 
-	.fa-bg {
+	.fa-bg,
+	.ys-bg {
 		width: 1200px;
 	}
 
@@ -124,6 +125,11 @@
 	@screen xl {
 		.hero-wrapper {
 			transform: translateX(150px) rotate(-3deg);
+		}
+
+		.ys-bg {
+			width: auto;
+			margin-bottom: -9%;
 		}
 
 		.fa-bg {

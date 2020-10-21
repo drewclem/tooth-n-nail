@@ -1,12 +1,14 @@
 <template>
 	<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 212.7 95">
 		<style type="text/css">
+			/* purgecss start ignore */
 			.st0 {
 				fill: #f9ebd5;
 			}
 			.st1 {
 				fill: #e68e02;
 			}
+			/* purgecss end ignore */
 		</style>
 		<g>
 			<path
