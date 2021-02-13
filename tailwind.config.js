@@ -1,6 +1,6 @@
 module.exports = {
 	purge: {
-		enabled: true,
+		enabled: false,
 		content: [
 			'./assets/css/*.css',
 			'./assets/svg/*.vue',

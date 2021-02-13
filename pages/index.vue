@@ -1,6 +1,25 @@
+<script>
+	import HeaderBG from '@/assets/svg/HeaderBG';
+	import TwoDiamond from '@/assets/svg/TwoDiamond';
+	import FaCarousel from '@/components/Home/FaCarousel';
+	import InstagramIcon from '@/assets/svg/instagram-brands.svg?inline';
+	import Heart from '@/assets/svg/icon-heart.svg?inline';
+
+	export default {
+		name: 'Home',
+		components: {
+			HeaderBG,
+			TwoDiamond,
+			FaCarousel,
+			Heart,
+			InstagramIcon,
+		},
+	};
+</script>
+
 <template>
 	<div class="mt-10">
-		<div class="container mx-auto px-5 lg:px-0">
+		<section class="container mx-auto px-5 lg:px-0">
 			<div class="items-center justify-around transform translate-x-12 hero-wrapper md:flex">
 				<div class="relative flex justify-center mb-6 hero-img">
 					<img src="~assets/images/tattoo.jpg" />
@@ -9,7 +28,7 @@
 				<div
 					class="text-center uppercase hero-lockup font-display text-black-900 md:text-left md:ml-10"
 				>
-					<h1 class="relative mb-5 text-4xl leading-tight lg:text-6xl font-bold">
+					<h1 class="text-shadow relative mb-5 text-4xl leading-tight lg:text-6xl font-bold">
 						Creativity worth committing to
 					</h1>
 
@@ -23,16 +42,16 @@
 					<button class="btn"><nuxt-link to="/contact">Book Appointment</nuxt-link></button>
 				</div>
 			</div>
-		</div>
+		</section>
 
-		<div class="featured-artist relative mt-32 lg:mt-64 text-gray-200 bg-gray-200">
+		<section class="featured-artist relative mt-32 lg:mt-64 text-gray-200 bg-gray-200">
 			<HeaderBG class="fa-bg absolute top-0 transform rotate-180 -mt-24" />
 
 			<div class="px-5 xxl:px-0 pb-12 md:pb-0">
 				<div class="container relative flex flex-col justify-between mx-auto text-black-900">
 					<div class="mt-10 mb-12 italic uppercase">
 						<div class="flex flex-row mb-3 lg:mb-6 text-4xl lg:text-5xl font-bold">
-							<span class="-mt-2">
+							<span class="-mt-1">
 								<TwoDiamond class="w-6 lg:w-12 transform rotate-180 text-yellow-500" />
 							</span>
 							<h2>Featured Artist</h2>
@@ -54,62 +73,63 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 
-		<div class="bg-yellow-500 py-20 relative">
+		<section class="bg-yellow-500 pt-20 pb-32 relative">
 			<div
 				class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-3 text-black-900 px-5 xxl:px-0"
 			>
-				<div>
+				<article class="mb-12 md:mb-0">
+					<Heart class="w-16 h-16 mb-4" />
 					<h3 class="font-display font-bold mb-6 italic text-3xl">Sterile</h3>
 					<p class="font-display font-light italic lg:w-3/4 opacity-75">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos</p
 					>
-				</div>
-				<div>
+				</article>
+				<article class="mb-12 md:mb-0">
+					<Heart class="w-16 h-16 mb-4" />
 					<h3 class="font-display font-bold mb-6 italic text-3xl">Quality</h3>
 					<p class="font-display font-light italic lg:w-3/4 opacity-75">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos</p
 					>
-				</div>
-				<div>
+				</article>
+				<article class="mb-12 md:mb-0">
+					<Heart class="w-16 h-16 mb-4" />
 					<h3 class="font-display font-bold mb-6 italic text-3xl">Professional</h3>
 					<p class="font-display font-light italic lg:w-3/4 opacity-75">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos</p
 					>
-				</div>
+				</article>
 			</div>
-			<HeaderBG class="absolute bottom-0 ys-bg -mb-24 text-yellow-500" />
-		</div>
+			<HeaderBG class="absolute bottom-0 ys-bg -mb-24 text-yellow-500 z-0" />
+		</section>
+
+		<a
+			href="/"
+			class="container mx-auto flex items-center justify-center -ml-4 -mt-10 transform hover:scale-105 transition-transform ease-in-out"
+			style="transform: rotate(-3deg)"
+		>
+			<div class="w-32 h-32 bg-yellow-200 rounded-full p-6 mr-8 shadow-md ">
+				<InstagramIcon class="w-full h-full" />
+			</div>
+			<h2 class="text-shadow font-display font-bold italic text-5xl uppercase leading-none"
+				>Follow us on<br />Instragram!</h2
+			>
+		</a>
 
 		<div class="h-64"></div>
 	</div>
 </template>
-
-<script>
-	import HeaderBG from '../assets/svg/HeaderBG';
-	import TwoDiamond from '../assets/svg/TwoDiamond';
-	import FaCarousel from '@/components/Home/FaCarousel';
-
-	export default {
-		name: 'Home',
-		components: {
-			HeaderBG,
-			TwoDiamond,
-			FaCarousel,
-		},
-	};
-</script>
 
 <style lang="postcss" scoped>
 	.hero-wrapper {
 		transform: rotate(-3deg);
 	}
 
-	.hero-lockup h1 {
+	.text-shadow {
 		text-shadow: 5px 5px 0px #f9ebd5;
 	}
 
