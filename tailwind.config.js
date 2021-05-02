@@ -25,6 +25,16 @@ module.exports = {
 					500: '#eb9001',
 				},
 			},
+			rotate: {
+				'-9': '-9deg',
+			},
+			margin: {
+				'-18': '-4.75rem',
+			},
 		},
+	},
+	variants: {
+		textColor: ['group-hover'],
+		backgroundColor: ['group-hover'],
 	},
 };

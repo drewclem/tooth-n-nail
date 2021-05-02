@@ -1,11 +1,19 @@
 /* purgecss start ignore */
 @import './fonts.css';
 
+*:hover {
+	@apply transition duration-150 ease-in-out;
+}
+
 .btn {
 	@apply px-12 py-1 italic font-normal tracking-widest text-white uppercase transition duration-200 ease-in-out bg-yellow-500;
 }
 
 .btn:hover {
 	@apply text-yellow-500 bg-black-900;
+}
+
+.text-shadow {
+	text-shadow: 5px 5px 0px #f9ebd5;
 }
 /* purgecss end ignore */

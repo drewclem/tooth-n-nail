@@ -1,18 +1,22 @@
 <script>
 	import HeaderBG from '@/assets/svg/HeaderBG';
+	import Eagle from '@/assets/svg/Eagle';
 	import TwoDiamond from '@/assets/svg/TwoDiamond';
 	import FaCarousel from '@/components/Home/FaCarousel';
 	import InstagramIcon from '@/assets/svg/instagram-brands.svg?inline';
 	import Heart from '@/assets/svg/icon-heart.svg?inline';
+	import BannerHeading from '@/components/Base/BannerHeading';
 
 	export default {
 		name: 'Home',
 		components: {
 			HeaderBG,
+			Eagle,
 			TwoDiamond,
 			FaCarousel,
 			Heart,
 			InstagramIcon,
+			BannerHeading,
 		},
 	};
 </script>
@@ -109,16 +113,53 @@
 
 		<a
 			href="/"
-			class="container mx-auto flex items-center justify-center -ml-4 -mt-10 transform hover:scale-105 transition-transform ease-in-out"
+			class="flex flex-col md:flex-row justify-center items-center w-full ml-0 md:-ml-4 -mt-10 transform hover:scale-105 transition-transform ease-in-out group"
 			style="transform: rotate(-3deg)"
 		>
-			<div class="w-32 h-32 bg-yellow-200 rounded-full p-6 mr-8 shadow-md ">
-				<InstagramIcon class="w-full h-full" />
+			<div class="w-32 h-32 bg-yellow-200 rounded-full p-6 mr-8 shadow-md group-hover:bg-black-900">
+				<InstagramIcon class="w-full h-full group-hover:text-yellow-500" />
 			</div>
 			<h2 class="text-shadow font-display font-bold italic text-5xl uppercase leading-none"
 				>Follow us on<br />Instragram!</h2
 			>
 		</a>
+
+		<section class="relative overflow-hidden">
+			<div class="max-w-3xl mx-auto md:grid grid-cols-2 gap-12 my-24 px-4">
+				<h2 class="sr-only">Our Artists</h2>
+
+				<div class="mb-6 md:mb-0">
+					<BannerHeading>Kevin Dixon</BannerHeading>
+
+					<div class="pl-8 -mt-8" style="transform: rotate(1deg)">
+						<img src="https://source.unsplash.com/random" alt="" />
+					</div>
+				</div>
+
+				<div class="mb-6 md:mb-0">
+					<BannerHeading>Kirby</BannerHeading>
+
+					<div class="pl-8 -mt-8" style="transform: rotate(1deg)">
+						<img src="https://source.unsplash.com/random" alt="" />
+					</div>
+				</div>
+				<div class="mb-6 md:mb-0">
+					<BannerHeading>Kevin Dixon</BannerHeading>
+
+					<div class="pl-8 -mt-8" style="transform: rotate(1deg)">
+						<img src="https://source.unsplash.com/random" alt="" />
+					</div>
+				</div>
+
+				<div class="mb-6 md:mb-0">
+					<BannerHeading>Kirby</BannerHeading>
+
+					<div class="pl-8 -mt-8" style="transform: rotate(1deg)">
+						<img src="https://source.unsplash.com/random" alt="" />
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<div class="h-64"></div>
 	</div>
@@ -127,10 +168,6 @@
 <style lang="postcss" scoped>
 	.hero-wrapper {
 		transform: rotate(-3deg);
-	}
-
-	.text-shadow {
-		text-shadow: 5px 5px 0px #f9ebd5;
 	}
 
 	.fa-bg,
