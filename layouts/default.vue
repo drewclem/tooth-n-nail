@@ -1,9 +1,11 @@
 <script>
 	import TNHeader from '@/components/Global/TNHeader';
+	import TNFooter from '@/components/Global/TNFooter';
 
 	export default {
 		components: {
 			TNHeader,
+			TNFooter,
 		},
 	};
 </script>
@@ -15,5 +17,7 @@
 		<main class="mt-24 md:mt-40">
 			<Nuxt />
 		</main>
+
+		<TnFooter />
 	</div>
 </template>

@@ -125,43 +125,58 @@
 		</a>
 
 		<section class="relative overflow-hidden">
-			<div class="max-w-3xl mx-auto md:grid grid-cols-2 gap-12 my-24 px-4">
+			<div class="max-w-3xl mx-auto md:grid grid-cols-2 gap-12 my-32 px-4">
 				<h2 class="sr-only">Our Artists</h2>
 
 				<div class="mb-6 md:mb-0">
 					<BannerHeading>Kevin Dixon</BannerHeading>
 
-					<div class="pl-8 -mt-8" style="transform: rotate(1deg)">
-						<img src="https://source.unsplash.com/random" alt="" />
+					<div class="pl-8 -mt-8 overflow-hidden" style="transform: rotate(1deg);">
+						<img
+							src="../assets/images/kevin.jpg"
+							alt=""
+							style="height: 350px; width: 350px; object-fit: cover;"
+						/>
 					</div>
 				</div>
 
 				<div class="mb-6 md:mb-0">
-					<BannerHeading>Kirby</BannerHeading>
+					<BannerHeading>Jonathan Kirby</BannerHeading>
 
-					<div class="pl-8 -mt-8" style="transform: rotate(1deg)">
-						<img src="https://source.unsplash.com/random" alt="" />
+					<div class="pl-8 -mt-8 overflow-hidden" style="transform: rotate(1deg);">
+						<img
+							src="../assets/images/kirby.jpg"
+							alt=""
+							style="height: 350px; width: 350px; object-fit: cover;"
+						/>
 					</div>
 				</div>
+
+				<div class="mb-6 md:mb-0">
+					<BannerHeading>Jonathan Kirby</BannerHeading>
+
+					<div class="pl-8 -mt-8 overflow-hidden" style="transform: rotate(1deg);">
+						<img
+							src="../assets/images/kirby.jpg"
+							alt=""
+							style="height: 350px; width: 350px; object-fit: cover;"
+						/>
+					</div>
+				</div>
+
 				<div class="mb-6 md:mb-0">
 					<BannerHeading>Kevin Dixon</BannerHeading>
 
-					<div class="pl-8 -mt-8" style="transform: rotate(1deg)">
-						<img src="https://source.unsplash.com/random" alt="" />
-					</div>
-				</div>
-
-				<div class="mb-6 md:mb-0">
-					<BannerHeading>Kirby</BannerHeading>
-
-					<div class="pl-8 -mt-8" style="transform: rotate(1deg)">
-						<img src="https://source.unsplash.com/random" alt="" />
+					<div class="pl-8 -mt-8 overflow-hidden" style="transform: rotate(1deg);">
+						<img
+							src="../assets/images/kevin.jpg"
+							alt=""
+							style="height: 350px; width: 350px; object-fit: cover;"
+						/>
 					</div>
 				</div>
 			</div>
 		</section>
-
-		<div class="h-64"></div>
 	</div>
 </template>
 
