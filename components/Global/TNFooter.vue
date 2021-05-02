@@ -16,26 +16,30 @@
 </script>
 
 <template>
-	<footer class="bg-gray-200 py-12 mt-24">
-		<div class="container mx-auto flex justify-between items-center">
-			<div>
-				<nuxt-link to="/"> <LogoBlack class="z-50 w-32 lg:w-40 mb-4 -ml-4" /> </nuxt-link>
+	<footer class="bg-gray-200 py-12 mt-12 lg:mt-24">
+		<div class="container mx-auto lg:flex justify-between items-center">
+			<div class="flex flex-col items-center lg:items-start">
+				<nuxt-link to="/">
+					<LogoBlack class="z-50 w-64 lg:w-56 mb-8 lg:mb-4 lg:-ml-4" />
+				</nuxt-link>
 
-				<a
-					class="mb-4 items-center text-xl mr-4 italic tracking-wide text-black-900 transition duration-150 ease-in-out cursor-pointer lg:flex  lg:mr-8 font-display"
-					href="tel:478-257-6155"
-				>
-					<PhoneIcon class="w-4 mt-px mr-4 opacity-50" />
-					478-257-6155
-				</a>
+				<div class="text-center lg:text-left">
+					<a
+						class=" mb-4 items-center text-xl italic tracking-wide text-black-900 transition duration-150 ease-in-out cursor-pointer lg:flex font-display"
+						href="tel:478-257-6155"
+					>
+						<PhoneIcon class="w-4 mt-px mr-4 opacity-50 inline-block" />
+						478-257-6155
+					</a>
 
-				<address>
-					<p>484 Cherry Street</p>
-					<p>Macon, GA 31021</p>
-				</address>
+					<address class="mt-4">
+						<p>484 Cherry Street</p>
+						<p>Macon, GA 31021</p>
+					</address>
+				</div>
 			</div>
 
-			<div>
+			<div class="hidden lg:block">
 				<nav>
 					<ul class="flex italic text-xl">
 						<li class="mr-4 lg:mr-8">
