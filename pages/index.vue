@@ -54,7 +54,7 @@
 						Quality, Clean, &amp; Professional Tattooing.
 					</p>
 
-					<button class="btn"><nuxt-link to="/contact">Book Appointment</nuxt-link></button>
+					<button class="btn"><nuxt-link to="/contact">Request Consultation</nuxt-link></button>
 				</div>
 			</div>
 		</section>
