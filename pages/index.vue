@@ -28,13 +28,13 @@
 </script>
 
 <template>
-	<div class="mt-10 relative">
+	<div class="mt-10 md:mt-0 relative">
 		<Swallow class="hidden md:block absolute text-yellow-200 left-0 top-0 ml-12 -mt-20 w-1/4" />
 		<Eagle
 			class="hidden md:block absolute text-yellow-200 right-0 w-1/3 transform rotate-25 mt-56"
 		/>
 
-		<section class="container mx-auto px-5 lg:px-0">
+		<section class="container mx-auto px-5 lg:px-0 md:py-6 -mt-6">
 			<div class="items-center justify-around transform translate-x-12 hero-wrapper md:flex">
 				<div class="relative flex justify-center mb-6 hero-img">
 					<img src="~assets/images/tattoo.jpg" />
