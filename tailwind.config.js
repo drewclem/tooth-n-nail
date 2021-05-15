@@ -27,6 +27,8 @@ module.exports = {
 			},
 			rotate: {
 				'-9': '-9deg',
+				25: '25deg',
+				'-25': '-25deg',
 			},
 			margin: {
 				'-18': '-4.75rem',

@@ -1,10 +1,13 @@
 <script>
 	import HeaderBG from '@/assets/svg/HeaderBG';
 	import Eagle from '@/assets/svg/Eagle';
+	import Swallow from '@/assets/svg/Swallow';
+	import SkullRose from '@/assets/svg/SkullRose';
 	import TwoDiamond from '@/assets/svg/TwoDiamond';
 	import FaCarousel from '@/components/Home/FaCarousel';
 	import InstagramIcon from '@/assets/svg/instagram-brands.svg?inline';
-	import Heart from '@/assets/svg/icon-heart.svg?inline';
+	import IconHeart from '@/assets/svg/icon-heart.svg?inline';
+	import Heart from '@/assets/svg/Heart';
 	import BannerHeading from '@/components/Base/BannerHeading';
 
 	export default {
@@ -12,9 +15,12 @@
 		components: {
 			HeaderBG,
 			Eagle,
+			Swallow,
+			Heart,
+			SkullRose,
 			TwoDiamond,
 			FaCarousel,
-			Heart,
+			IconHeart,
 			InstagramIcon,
 			BannerHeading,
 		},
@@ -22,7 +28,12 @@
 </script>
 
 <template>
-	<div class="mt-10">
+	<div class="mt-10 relative">
+		<Swallow class="hidden md:block absolute text-yellow-200 left-0 top-0 ml-12 -mt-20 w-1/4" />
+		<Eagle
+			class="hidden md:block absolute text-yellow-200 right-0 w-1/3 transform rotate-25 mt-56"
+		/>
+
 		<section class="container mx-auto px-5 lg:px-0">
 			<div class="items-center justify-around transform translate-x-12 hero-wrapper md:flex">
 				<div class="relative flex justify-center mb-6 hero-img">
@@ -30,7 +41,7 @@
 				</div>
 
 				<div
-					class="text-center uppercase hero-lockup font-display text-black-900 md:text-left md:ml-10"
+					class="text-center uppercase hero-lockup font-display text-black-900 md:text-left md:ml-10 z-50"
 				>
 					<h1 class="text-shadow relative mb-5 text-4xl leading-tight lg:text-6xl font-bold">
 						Creativity worth committing to
@@ -84,7 +95,7 @@
 				class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-3 text-black-900 px-5 xxl:px-0"
 			>
 				<article class="mb-12 md:mb-0">
-					<Heart class="w-16 h-16 mb-4" />
+					<IconHeart class="w-16 h-16 mb-4" />
 					<h3 class="font-display font-bold mb-6 italic text-3xl">Sterile</h3>
 					<p class="font-display font-light italic lg:w-3/4 opacity-75">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -92,7 +103,7 @@
 					>
 				</article>
 				<article class="mb-12 md:mb-0">
-					<Heart class="w-16 h-16 mb-4" />
+					<IconHeart class="w-16 h-16 mb-4" />
 					<h3 class="font-display font-bold mb-6 italic text-3xl">Quality</h3>
 					<p class="font-display font-light italic lg:w-3/4 opacity-75">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -100,7 +111,7 @@
 					>
 				</article>
 				<article class="mb-12 md:mb-0">
-					<Heart class="w-16 h-16 mb-4" />
+					<IconHeart class="w-16 h-16 mb-4" />
 					<h3 class="font-display font-bold mb-6 italic text-3xl">Professional</h3>
 					<p class="font-display font-light italic lg:w-3/4 opacity-75">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -125,6 +136,18 @@
 		</a>
 
 		<section class="relative overflow-hidden">
+			<SkullRose
+				class="hidden md:block absolute text-yellow-200 w-1/4 -rotate-25 transform ml-16 mt-64"
+			/>
+
+			<Heart
+				class="hidden md:block absolute w-1/6 transform rotate-25 mt-20 mr-12 text-yellow-200 right-0"
+			/>
+
+			<Eagle
+				class="hidden md:block absolute text-yellow-200 right-0 w-1/4 transform rotate-25 bottom-0  mr-16"
+			/>
+
 			<div class="max-w-3xl mx-auto md:grid grid-cols-2 gap-12 my-32 px-4">
 				<h2 class="sr-only">Our Artists</h2>
 
