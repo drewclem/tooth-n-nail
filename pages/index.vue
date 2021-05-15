@@ -137,15 +137,15 @@
 
 		<section class="relative overflow-hidden">
 			<SkullRose
-				class="hidden md:block absolute text-yellow-200 w-1/4 -rotate-25 transform ml-16 mt-64"
+				class="hidden md:block absolute text-yellow-200 w-1/4 -rotate-25 transform ml-24 mt-64"
 			/>
 
 			<Heart
-				class="hidden md:block absolute w-1/6 transform rotate-25 mt-20 mr-12 text-yellow-200 right-0"
+				class="hidden md:block absolute w-1/6 transform rotate-25 mt-20 mr-20 text-yellow-200 right-0"
 			/>
 
 			<Eagle
-				class="hidden md:block absolute text-yellow-200 right-0 w-1/4 transform rotate-25 bottom-0  mr-16"
+				class="hidden md:block absolute text-yellow-200 right-0 w-1/4 transform rotate-25 bottom-0  mr-24"
 			/>
 
 			<div class="max-w-3xl mx-auto md:grid grid-cols-2 gap-12 my-32 px-4">
