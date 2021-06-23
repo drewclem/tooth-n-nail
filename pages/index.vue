@@ -72,7 +72,7 @@
 							<h2>Featured Artist</h2>
 						</div>
 
-						<p class="text-2xl lg:text-3xl font-medium">Johnny Cool Hat</p>
+						<p class="text-2xl lg:text-3xl font-medium">Kevin dixon</p>
 
 						<p class="text-base lg:text-lg opacity-75">Illustrative/Realism</p>
 					</div>
@@ -83,8 +83,8 @@
 						<div class="overflow-gradient -mr-px" />
 					</div>
 
-					<div class="hidden md:block absolute bottom-0 right-0 z-20 w-2/5 ">
-						<img src="../assets/images/headshot.png" class="w-full" />
+					<div class="hidden md:block absolute bottom-0 right-0 z-20">
+						<img src="../assets/images/artists/kevin-cutout.png" class="w-full" />
 					</div>
 				</div>
 			</div>
@@ -152,11 +152,11 @@
 				<h2 class="sr-only">Our Artists</h2>
 
 				<div class="mb-6 md:mb-0">
-					<BannerHeading>Kevin Dixon</BannerHeading>
+					<BannerHeading link="/artists/kevin">Kevin Dixon</BannerHeading>
 
 					<div class="pl-8 -mt-8 overflow-hidden" style="transform: rotate(1deg);">
 						<img
-							src="../assets/images/kevin.jpg"
+							src="../assets/images/artists/kevin.jpg"
 							alt=""
 							style="height: 350px; width: 350px; object-fit: cover;"
 						/>
@@ -164,11 +164,11 @@
 				</div>
 
 				<div class="mb-6 md:mb-0">
-					<BannerHeading>Jonathan Kirby</BannerHeading>
+					<BannerHeading link="/artists/kirby">Jonathan Kirby</BannerHeading>
 
 					<div class="pl-8 -mt-8 overflow-hidden" style="transform: rotate(1deg);">
 						<img
-							src="../assets/images/kirby.jpg"
+							src="../assets/images/artists/kirby.jpg"
 							alt=""
 							style="height: 350px; width: 350px; object-fit: cover;"
 						/>
@@ -176,11 +176,11 @@
 				</div>
 
 				<div class="mb-6 md:mb-0">
-					<BannerHeading>Jonathan Kirby</BannerHeading>
+					<BannerHeading link="/artists/micah">Micah Freeman</BannerHeading>
 
 					<div class="pl-8 -mt-8 overflow-hidden" style="transform: rotate(1deg);">
 						<img
-							src="../assets/images/kirby.jpg"
+							src="../assets/images/artists/micah.jpeg"
 							alt=""
 							style="height: 350px; width: 350px; object-fit: cover;"
 						/>
@@ -188,11 +188,11 @@
 				</div>
 
 				<div class="mb-6 md:mb-0">
-					<BannerHeading>Kevin Dixon</BannerHeading>
+					<BannerHeading link="/artists/ricky">Ricky Lester</BannerHeading>
 
 					<div class="pl-8 -mt-8 overflow-hidden" style="transform: rotate(1deg);">
 						<img
-							src="../assets/images/kevin.jpg"
+							src="../assets/images/artists/ricky.jpeg"
 							alt=""
 							style="height: 350px; width: 350px; object-fit: cover;"
 						/>
