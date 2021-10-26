@@ -39,9 +39,9 @@
 				</div>
 			</div>
 
-			<div class="hidden lg:block">
-				<nav>
-					<ul class="flex italic text-xl">
+			<div class="px-4">
+				<nav class="hidden lg:block">
+					<ul class="flex italic text-xl justify-end">
 						<li class="mr-4 lg:mr-8">
 							<nuxt-link
 								to="/artists"
@@ -76,7 +76,7 @@
 						</li>
 					</ul>
 				</nav>
-				<div class="items-center text-sm social-icons lg:flex mt-4 justify-end">
+				<div class="items-center text-sm social-icons lg:flex mt-4 justify-end hidden md:block">
 					<!-- <a
 						class="mr-4 transition duration-150 ease-in-out opacity-75 cursor-pointer hover:opacity-100"
 					>
@@ -90,6 +90,10 @@
 						<InstagramIcon class="w-4 text-yellow-500 mr-2" /> Follow us on Instagram!
 					</a>
 				</div>
+				<p class="mt-8 pr-4 opacity-50 text-center md:text-right"
+					>Licensed by the Macon Bibb County Board of Health. 171 Emory Highway.
+					<a class="underline" href="tel:478-745-0411">478-745-0411</a></p
+				>
 			</div>
 		</div>
 	</footer>
