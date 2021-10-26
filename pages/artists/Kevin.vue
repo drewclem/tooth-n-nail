@@ -58,9 +58,11 @@
 										class="bg-yellow-500 text-white p-1"
 										href="https://docs.google.com/forms/d/e/1FAIpQLSeAomw_DzPpgivj8C_zAItaCOQMb3i14sEhS6AQHsLC_mdNEQ/viewform"
 										>WAITLIST&nbsp;REQUEST&nbsp;FORM</a
-									>
-									(please note, this form is for Kevin D Tattoos only and will not work if you are
-									looking to get tattooed by another artist here at TNT Parlour )</p
+									><br />
+									<span class="text-xs"
+										>(please note, this form is for Kevin D Tattoos only and will not work if you
+										are looking to get tattooed by another artist here at TNT Parlour )</span
+									></p
 								>
 							</div>
 						</div>
