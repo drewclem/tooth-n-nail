@@ -37,7 +37,11 @@
 		<section class="container mx-auto px-5 lg:px-0 md:py-6 -mt-6">
 			<div class="items-center justify-around transform translate-x-12 hero-wrapper md:flex">
 				<div class="relative flex justify-center mb-6 hero-img">
-					<img src="~assets/images/tattoo.jpg" />
+					<img
+						src="~assets/images/tattoo.jpg"
+						alt="Tattoo of a Jason Vorhees caricature underwater"
+						lazy
+					/>
 				</div>
 
 				<div
