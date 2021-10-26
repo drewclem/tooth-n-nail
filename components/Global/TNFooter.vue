@@ -20,7 +20,7 @@
 		<div class="container mx-auto lg:flex justify-between items-center">
 			<div class="flex flex-col items-center lg:items-start">
 				<nuxt-link to="/">
-					<TNLogo class="z-50 w-64 lg:w-56 mb-8 lg:mb-4 lg:-ml-4" />
+					<TNLogo class="z-50 w-48 mb-8 lg:mb-4 lg:-ml-4" />
 				</nuxt-link>
 
 				<div class="text-center lg:text-left">
