@@ -34,6 +34,7 @@ module.exports = {
 				'-18': '-4.75rem',
 			},
 		},
+		center: true,
 	},
 	variants: {
 		textColor: ['group-hover'],

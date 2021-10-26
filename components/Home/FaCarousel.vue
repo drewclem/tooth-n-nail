@@ -1,7 +1,7 @@
 <template>
 	<Swiper ref="carousel" :options="swiperOptions" class="swiper flex w-full">
 		<SwiperSlide class="swiper-slide" :key="index" v-for="(img, index) in imgs">
-			<img src="~assets/placeholders/tattoo-1.jpg" :alt="img.title" />
+			<img :src="img.path" :alt="img.title" />
 		</SwiperSlide>
 	</Swiper>
 </template>
@@ -23,27 +23,35 @@
 				imgs: [
 					{
 						title: 'Tattoo',
+						path: '../../assets/images/artists/kevin/download (1).png',
 					},
 					{
 						title: 'Tattoo',
+						path: '../../assets/images/artists/kevin/download (2).png',
 					},
 					{
 						title: 'Tattoo',
+						path: '../../assets/images/artists/kevin/download (3).png',
 					},
 					{
 						title: 'Tattoo',
+						path: '../../assets/images/artists/kevin/download (4).png',
 					},
 					{
 						title: 'Tattoo',
+						path: '../../assets/images/artists/kevin/download (5).png',
 					},
 					{
 						title: 'Tattoo',
+						path: '../../assets/images/artists/kevin/download (6).png',
 					},
 					{
 						title: 'Tattoo',
+						path: '../../assets/images/artists/kevin/download (7).png',
 					},
 					{
 						title: 'Tattoo',
+						path: '../../assets/images/artists/kevin/download (8).png',
 					},
 				],
 				swiperOptions: {

@@ -105,14 +105,15 @@
 					478-257-6155
 				</a>
 
-				<a
+				<!-- <a
 					class="mr-4 transition duration-150 ease-in-out opacity-75 cursor-pointer hover:opacity-100"
 				>
 					<FacebookIcon class="w-3 text-yellow-200" />
-				</a>
+				</a> -->
 
 				<a
 					class="mr-4 transition duration-150 ease-in-out opacity-75 cursor-pointer hover:opacity-100"
+					href="https://www.instagram.com/tntparlour/"
 				>
 					<InstagramIcon class="w-4 text-yellow-200" />
 				</a>

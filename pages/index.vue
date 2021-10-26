@@ -163,7 +163,7 @@
 					</div>
 				</div>
 
-				<div class="mb-6 md:mb-0">
+				<div class="relative mb-6 md:mb-0">
 					<BannerHeading link="/artists/kirby">Jonathan Kirby</BannerHeading>
 
 					<div class="pl-8 -mt-8 overflow-hidden" style="transform: rotate(1deg);">

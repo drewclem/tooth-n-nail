@@ -1,0 +1,491 @@
+<script>
+	import BannerHeading from '@/components/Base/BannerHeading';
+	import FacebookIcon from '@/assets/svg/FacebookIcon';
+	import InstagramIcon from '@/assets/svg/InstagramIcon';
+	import HeaderBG from '@/assets/svg/HeaderBG';
+	import Heart from '@/assets/svg/Heart';
+	import Swallow from '@/assets/svg/Swallow';
+
+	export default {
+		components: {
+			BannerHeading,
+			FacebookIcon,
+			InstagramIcon,
+			HeaderBG,
+			Heart,
+			Swallow,
+		},
+	};
+</script>
+
+<template>
+	<div>
+		<section>
+			<div class="relative">
+				<Heart
+					class="absolute w-1/3  mr-6 mt-12 md:w-1/5 md:mt-32 md:mr-12 transform rotate-25 text-yellow-200 right-0 z-0"
+				/>
+				<Swallow
+					class="text-yellow-200 absolute w-1/2 ml-8 mt-56 md:w-1/4 md:ml-64 md:-mt-24 transform -rotate-25 left-0 z-0"
+				/>
+
+				<div class="relative">
+					<div
+						class="relative container mx-auto md:grid grid-cols-2 gap-8 items-center z-10 px-6 md:px-0"
+					>
+						<div>
+							<BannerHeading>Ricky Lester</BannerHeading>
+							<div class="items-center hidden text-sm social-icons lg:flex mt-3 mb-8">
+								<a class="mr-4 transition duration-150 ease-in-out cursor-pointer">
+									<FacebookIcon class="w-4 text-yellow-500" />
+								</a>
+
+								<a class="mr-4 transition duration-150 ease-in-out cursor-pointer">
+									<InstagramIcon class="w-5 text-yellow-500" />
+								</a>
+							</div>
+
+							<div class="text-black-900">
+								<p class="text-xl italic opacity-50">4 Years Experience</p>
+								<p class="mb-8 text-3xl font-bold font-display italic">Traditional/Black work</p>
+								<p class="opacity-75 md:w-3/4">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum exercitationem
+									libero, necessitatibus ex quibusdam odio ad. Illo distinctio culpa odio quos dicta
+									dolorem, dolorum deserunt laudantium error numquam, perferendis natus.</p
+								>
+							</div>
+						</div>
+
+						<div class="relative mt-12 md:mt-0 z-50">
+							<img src="../../assets/images/artists/ricky-cutout.png" class="w-full" />
+						</div>
+					</div>
+
+					<HeaderBG class="text-yellow-200 absolute bottom-0 transform rotate-180 mb-64 z-0" />
+					<div class="absolute bottom-0 bg-yellow-200 h-64 w-full"></div>
+				</div>
+
+				<div
+					class="container mx-auto px-6 md:px-0 grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8 my-24"
+				>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (1).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (2).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (3).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (4).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (5).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (6).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (7).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (8).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (9).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (10).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (11).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (12).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (13).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (14).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (15).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (16).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (17).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (18).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (19).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (20).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (21).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (22).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (23).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (24).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (25).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (26).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (27).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (28).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (29).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (30).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (31).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (32).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (33).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (34).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (35).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (36).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (37).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (38).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (39).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (40).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (41).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (42).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (43).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (44).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (45).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (46).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (47).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (48).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (49).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (50).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (51).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+					<div class="h-64 overflow-hidden">
+						<img
+							class="w-full h-full object-cover"
+							src="../../assets/images/artists/ricky/download (53).png"
+							alt="tattoo"
+							lazy
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</template>

@@ -77,14 +77,15 @@
 					</ul>
 				</nav>
 				<div class="items-center text-sm social-icons lg:flex mt-4 justify-end">
-					<a
+					<!-- <a
 						class="mr-4 transition duration-150 ease-in-out opacity-75 cursor-pointer hover:opacity-100"
 					>
 						<FacebookIcon class="w-3 text-black-900" />
-					</a>
+					</a> -->
 
 					<a
 						class="mr-4 transition duration-150 ease-in-out opacity-75 cursor-pointer hover:opacity-100"
+						href="https://www.instagram.com/tntparlour/"
 					>
 						<InstagramIcon class="w-4 text-black-900" />
 					</a>
