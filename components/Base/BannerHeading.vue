@@ -16,13 +16,15 @@
 <template>
 	<nuxt-link v-if="link" :to="link" class="relative group flex py-8 z-50">
 		<h3
-			class="font-display text-4xl italic font-bold transform origin-bottom-left -rotate-9 group-hover:text-yellow-500 ml-12 transition ease-in-out duration-150"
+			class="uppercase font-display text-4xl italic font-bold transform origin-bottom-left -rotate-9 group-hover:text-yellow-500 ml-12 transition ease-in-out duration-150"
 		>
 			<slot></slot>
 		</h3>
 	</nuxt-link>
 	<div class="relative flex py-8 z-50" v-else>
-		<h3 class="font-display text-4xl italic font-bold transform origin-bottom-left -rotate-9 ml-12">
+		<h3
+			class="uppercase font-display text-4xl italic font-bold transform origin-bottom-left -rotate-9 ml-12"
+		>
 			<slot></slot> </h3
 	></div>
 </template>

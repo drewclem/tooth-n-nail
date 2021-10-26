@@ -35,7 +35,7 @@
 		/>
 
 		<section class="container mx-auto px-5 lg:px-0 md:py-6 -mt-6">
-			<div class="items-center justify-around transform translate-x-12 hero-wrapper md:flex">
+			<div class="items-center transform translate-x-12 hero-wrapper md:flex">
 				<div class="relative flex justify-center mb-6 hero-img">
 					<img
 						src="~assets/images/tattoo.jpg"
@@ -45,10 +45,10 @@
 				</div>
 
 				<div
-					class="text-center uppercase hero-lockup font-display text-black-900 md:text-left md:ml-10 z-50"
+					class="text-center uppercase font-display text-black-900 md:text-left md:ml-10 lg:ml-0 z-50"
 				>
 					<h1 class="text-shadow relative mb-5 text-4xl leading-tight lg:text-6xl font-bold">
-						Creativity worth committing to
+						Lowbrow Know How
 					</h1>
 
 					<p
@@ -102,25 +102,28 @@
 					<IconHeart class="w-16 h-16 mb-4" />
 					<h3 class="font-display font-bold mb-6 italic text-3xl">Sterile</h3>
 					<p class="font-display font-light italic lg:w-3/4 opacity-75">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos</p
-					>
+						We work in strict compliance with the Macon Bibb County Board of Health 171 Emory
+						Highway. Using high quality equipment, needles, and inks to provide you with the safest
+						possible experience.
+					</p>
 				</article>
 				<article class="mb-12 md:mb-0">
 					<IconHeart class="w-16 h-16 mb-4" />
 					<h3 class="font-display font-bold mb-6 italic text-3xl">Quality</h3>
 					<p class="font-display font-light italic lg:w-3/4 opacity-75">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos</p
+						With over 35 years of combined experience, our artists are able to work in virtually any
+						style. Each artist has their own specialties wether it be clean and crisp traditional or
+						vibrant color realism we can handle it all.</p
 					>
 				</article>
 				<article class="mb-12 md:mb-0">
 					<IconHeart class="w-16 h-16 mb-4" />
 					<h3 class="font-display font-bold mb-6 italic text-3xl">Professional</h3>
 					<p class="font-display font-light italic lg:w-3/4 opacity-75">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos</p
-					>
+						Here at TNT Parlour we work hard to make sure you have a good professional experience
+						from start to finish. We will work with you on your ideas and even if it’s something we
+						cant work out, we will work with you to find you someone who can.
+					</p>
 				</article>
 			</div>
 			<HeaderBG class="absolute bottom-0 ys-bg -mb-24 text-yellow-500 z-0" />

@@ -1,5 +1,5 @@
 <script>
-	import LogoBlack from '@/assets/svg/logo_black.svg?inline';
+	import TNLogo from '@/assets/svg/TNLogo';
 	import FacebookIcon from '@/assets/svg/FacebookIcon';
 	import InstagramIcon from '@/assets/svg/InstagramIcon';
 	import PhoneIcon from '@/assets/svg/PhoneIcon';
@@ -7,7 +7,7 @@
 	export default {
 		name: 'TNFooter',
 		components: {
-			LogoBlack,
+			TNLogo,
 			FacebookIcon,
 			InstagramIcon,
 			PhoneIcon,
@@ -16,16 +16,16 @@
 </script>
 
 <template>
-	<footer class="bg-gray-200 py-12 mt-12 lg:mt-24">
+	<footer class="bg-black-900 text-white py-12 mt-12 lg:mt-24">
 		<div class="container mx-auto lg:flex justify-between items-center">
 			<div class="flex flex-col items-center lg:items-start">
 				<nuxt-link to="/">
-					<LogoBlack class="z-50 w-64 lg:w-56 mb-8 lg:mb-4 lg:-ml-4" />
+					<TNLogo class="z-50 w-64 lg:w-56 mb-8 lg:mb-4 lg:-ml-4" />
 				</nuxt-link>
 
 				<div class="text-center lg:text-left">
 					<a
-						class=" mb-4 items-center text-xl italic tracking-wide text-black-900 transition duration-150 ease-in-out cursor-pointer lg:flex font-display"
+						class=" mb-4 items-center text-xl italic tracking-wide transition duration-150 ease-in-out cursor-pointer lg:flex font-display"
 						href="tel:478-257-6155"
 					>
 						<PhoneIcon class="w-4 mt-px mr-4 opacity-50 inline-block" />
@@ -84,10 +84,10 @@
 					</a> -->
 
 					<a
-						class="mr-4 transition duration-150 ease-in-out opacity-75 cursor-pointer hover:opacity-100"
+						class="flex mr-4 transition duration-150 ease-in-out opacity-75 cursor-pointer hover:opacity-100"
 						href="https://www.instagram.com/tntparlour/"
 					>
-						<InstagramIcon class="w-4 text-black-900" />
+						<InstagramIcon class="w-4 text-yellow-500 mr-2" /> Follow us on Instagram!
 					</a>
 				</div>
 			</div>

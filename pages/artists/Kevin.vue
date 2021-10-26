@@ -36,22 +36,31 @@
 						<div>
 							<BannerHeading>Kevin Dixon</BannerHeading>
 							<div class="items-center hidden text-sm social-icons lg:flex mt-3 mb-8">
-								<a class="mr-4 transition duration-150 ease-in-out cursor-pointer">
-									<FacebookIcon class="w-4 text-yellow-500" />
-								</a>
-
-								<a class="mr-4 transition duration-150 ease-in-out cursor-pointer">
-									<InstagramIcon class="w-5 text-yellow-500" />
+								<a
+									href="https://www.instagram.com/kevin_dtattoos"
+									class="mr-4 transition duration-150 ease-in-out cursor-pointer"
+								>
+									<InstagramIcon class="w-8 text-yellow-500 mr-2" />
 								</a>
 							</div>
 
 							<div class="text-black-900">
-								<p class="text-xl italic opacity-50">4 Years Experience</p>
+								<p class="text-xl italic opacity-50">12 Years Experience</p>
 								<p class="mb-8 text-3xl font-bold font-display italic">Illustrative/Realism</p>
-								<p class="opacity-75 md:w-3/4">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum exercitationem
-									libero, necessitatibus ex quibusdam odio ad. Illo distinctio culpa odio quos dicta
-									dolorem, dolorum deserunt laudantium error numquam, perferendis natus.</p
+								<p class="opacity-75 md:w-3/4 leading-relaxed">
+									Tattooing since 2009, Kevin specializes in pop culture tattoos and can handle most
+									any style of tattoo, from traditional to color realism. He prefers to work in
+									color, but can also work in black and gray. He tends to stay fairly booked up so
+									if you would like to get work from him in the future, the best way to do that is
+									to follow the link below to get added to the Waitlist. I look forward to making
+									some nerdy magic for you.
+									<a
+										class="bg-yellow-500 text-white p-1"
+										href="https://docs.google.com/forms/d/e/1FAIpQLSeAomw_DzPpgivj8C_zAItaCOQMb3i14sEhS6AQHsLC_mdNEQ/viewform"
+										>WAITLIST&nbsp;REQUEST&nbsp;FORM</a
+									>
+									(please note, this form is for Kevin D Tattoos only and will not work if you are
+									looking to get tattooed by another artist here at TNT Parlour )</p
 								>
 							</div>
 						</div>
