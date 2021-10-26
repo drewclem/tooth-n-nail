@@ -3,6 +3,7 @@
 		<SwiperSlide class="swiper-slide" :key="index" v-for="(img, index) in imgs">
 			<img class="w-full h-full object-cover" :src="img.path" :alt="img.title" />
 		</SwiperSlide>
+		<SwiperSlide class="swiper-slide"> </SwiperSlide>
 	</Swiper>
 </template>
 
