@@ -127,7 +127,7 @@
 		</section>
 
 		<a
-			href="/"
+			href="https://www.instagram.com/tntparlour/"
 			class="flex flex-col md:flex-row justify-center items-center w-full ml-0 md:-ml-4 -mt-10 transform hover:scale-105 transition-transform ease-in-out group"
 			style="transform: rotate(-3deg)"
 		>
