@@ -17,7 +17,7 @@ export default {
 	css: ['@/assets/css/styles.css'],
 
 	// Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-	plugins: [],
+	plugins: ['~/plugins/components'],
 
 	// Auto import components (https://go.nuxtjs.dev/config-components)
 	components: true,
@@ -29,7 +29,16 @@ export default {
 	],
 
 	// Modules (https://go.nuxtjs.dev/config-modules)
-	modules: ['@nuxtjs/svg'],
+	modules: [
+		'@nuxtjs/svg',
+		[
+			'storyblok-nuxt',
+			{
+				accessToken: 'ABtcIxf54vW2ckAQbs5M6wtt',
+				cacheProvider: 'memory',
+			},
+		],
+	],
 
 	// Build Configuration (https://go.nuxtjs.dev/config-build)
 	build: {},

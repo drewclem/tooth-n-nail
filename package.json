@@ -10,8 +10,10 @@
   },
   "dependencies": {
     "@nuxtjs/svg": "^0.1.12",
+    "axios": "^0.24.0",
     "core-js": "^3.6.5",
     "nuxt": "^2.14.5",
+    "storyblok-nuxt": "^2.0.1",
     "swiper": "5.x",
     "vue-awesome-swiper": "^4.1.1"
   },
