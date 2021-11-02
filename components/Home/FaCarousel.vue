@@ -1,7 +1,7 @@
 <template>
 	<Swiper ref="carousel" :options="swiperOptions" class="swiper flex w-full">
 		<SwiperSlide class="swiper-slide" :key="index" v-for="(img, index) in imgs">
-			<img class="w-full h-full object-cover" :src="img.path" :alt="img.title" />
+			<img class="w-full h-full object-cover" :src="img.image.filename" :alt="img.image.alt" />
 		</SwiperSlide>
 		<SwiperSlide class="swiper-slide"> </SwiperSlide>
 	</Swiper>
@@ -19,42 +19,14 @@
 		directives: {
 			swiper: directive,
 		},
+		props: {
+			imgs: {
+				type: Array,
+				required: true,
+			},
+		},
 		data: function() {
 			return {
-				imgs: [
-					{
-						title: 'Tattoo',
-						path: require('../../assets/images/artists/kevin/download (1).png'),
-					},
-					{
-						title: 'Tattoo',
-						path: require('../../assets/images/artists/kevin/download (2).png'),
-					},
-					{
-						title: 'Tattoo',
-						path: require('../../assets/images/artists/kevin/download (3).png'),
-					},
-					{
-						title: 'Tattoo',
-						path: require('../../assets/images/artists/kevin/download (4).png'),
-					},
-					{
-						title: 'Tattoo',
-						path: require('../../assets/images/artists/kevin/download (5).png'),
-					},
-					{
-						title: 'Tattoo',
-						path: require('../../assets/images/artists/kevin/download (6).png'),
-					},
-					{
-						title: 'Tattoo',
-						path: require('../../assets/images/artists/kevin/download (7).png'),
-					},
-					{
-						title: 'Tattoo',
-						path: require('../../assets/images/artists/kevin/download (8).png'),
-					},
-				],
 				swiperOptions: {
 					slidesPerView: 1.25,
 					keyboard: {

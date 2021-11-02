@@ -9,6 +9,10 @@
 			link: {
 				type: String,
 			},
+			block: {
+				type: Object,
+				required: true,
+			},
 		},
 	};
 </script>
@@ -18,15 +22,16 @@
 		<h3
 			class="uppercase font-display text-4xl italic font-bold transform origin-bottom-left -rotate-9 group-hover:text-yellow-500 ml-12 transition ease-in-out duration-150"
 		>
-			<slot></slot>
+			{{ block.headline }}
 		</h3>
 	</nuxt-link>
 	<div class="relative flex py-8 z-50" v-else>
 		<h3
 			class="uppercase font-display text-4xl italic font-bold transform origin-bottom-left -rotate-9 ml-12"
 		>
-			<slot></slot> </h3
-	></div>
+			{{ block.headline }}
+		</h3></div
+	>
 </template>
 
 <style lang="postcss" scoped>
