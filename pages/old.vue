@@ -28,7 +28,7 @@
 </script>
 
 <template>
-	<!-- <div class="mt-10 md:mt-0 relative">
+	<div class="mt-10 md:mt-0 relative">
 		<Swallow class="hidden md:block absolute text-yellow-200 left-0 top-0 ml-12 -mt-20 w-1/4" />
 		<Eagle
 			class="hidden md:block absolute text-yellow-200 right-0 w-1/3 transform rotate-25 mt-56"
@@ -207,7 +207,7 @@
 				</div>
 			</div>
 		</section>
-	</div> -->
+	</div>
 </template>
 
 <style lang="postcss" scoped>

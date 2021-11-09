@@ -55,6 +55,17 @@
 </script>
 
 <style lang="postcss" scoped>
+	.fa-bg {
+		width: 1200px;
+	}
+
+	@screen xl {
+		.fa-bg {
+			width: auto;
+			margin-top: -9%;
+		}
+	}
+
 	.overflow-gradient {
 		position: absolute;
 		pointer-events: none;
