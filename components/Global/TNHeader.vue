@@ -62,17 +62,8 @@
 			:class="navOpen ? 'active' : ''"
 		>
 			<ul class="flex flex-col text-center text-black-900">
-				<li class="mb-4">
-					<nuxt-link class="px-6 py-2" to="/our-artists">Artists</nuxt-link>
-				</li>
-				<li class="mb-4">
-					<nuxt-link class="px-6 py-2" to="/faqs">Q&amp;A</nuxt-link>
-				</li>
-				<li class="mb-4">
-					<nuxt-link class="px-6 py-2" to="/tattoo-aftercare">Aftercare</nuxt-link>
-				</li>
-				<li>
-					<nuxt-link class="px-6 py-2" to="/contact">Contact</nuxt-link>
+				<li v-for="item in mainNav" :key="item._uid" class="mb-4">
+					<nuxt-link class="px-6 py-2" :to="item.link.cached_url">{{ item.displayText }}</nuxt-link>
 				</li>
 			</ul>
 
