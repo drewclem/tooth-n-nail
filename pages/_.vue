@@ -4,6 +4,7 @@
 			v-if="story.content.component"
 			:key="story.content._uid"
 			:block="story.content"
+			:page-name="story.name"
 			:is="story.content.component"
 		/>
 	</section>
