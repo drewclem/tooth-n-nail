@@ -5,12 +5,23 @@
 		>
 			<div>
 				<BannerHeading>{{ block.name }}</BannerHeading>
+
 				<div class="items-center hidden text-sm social-icons lg:flex mt-3 mb-8">
 					<a
-						href="https://www.instagram.com/kevin_dtattoos"
+						v-for="link in block.socialLinks"
+						:key="link._uid"
+						:href="link.url"
 						class="mr-4 transition duration-150 ease-in-out cursor-pointer"
 					>
-						<InstagramIcon class="w-8 text-yellow-500 mr-2" />
+						<InstagramIcon v-if="link.type === 'instagram'" class="w-8 text-yellow-500 mr-2" />
+
+						<FacebookIcon v-if="link.type === 'facebook'" class="w-8 text-yellow-500 mr-2" />
+
+						<TwitterIcon v-if="link.type === 'twitter'" class="w-8 text-yellow-500 mr-2" />
+
+						<TiktokIcon v-if="link.type === 'tiktok'" class="w-8 text-yellow-500 mr-2" />
+
+						<YoutubeIcon v-if="link.type === 'youtube'" class="w-8 text-yellow-500 mr-2" />
 					</a>
 				</div>
 
@@ -47,11 +58,20 @@
 <script>
 	import BannerHeading from '@/components/Base/BannerHeading';
 	import InstagramIcon from '@/assets/svg/InstagramIcon';
+	import FacebookIcon from '@/assets/svg/FacebookIcon';
+	import TwitterIcon from '@/assets/svg/TwitterIcon';
+	import TiktokIcon from '@/assets/svg/TiktokIcon';
+	import YoutubeIcon from '@/assets/svg/YoutubeIcon';
 	import HeaderBG from '@/assets/svg/HeaderBG';
+
 	export default {
 		components: {
 			BannerHeading,
 			InstagramIcon,
+			FacebookIcon,
+			TwitterIcon,
+			TiktokIcon,
+			YoutubeIcon,
 			HeaderBG,
 		},
 		props: {
