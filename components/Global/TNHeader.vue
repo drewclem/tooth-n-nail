@@ -63,7 +63,7 @@
 				<ul class="flex">
 					<li class="mr-4 lg:mr-8">
 						<nuxt-link
-							to="/artists"
+							to="/our-artists"
 							class="px-4 transition duration-150 ease-in-out opacity-50 hover:opacity-100"
 						>
 							Artists
@@ -71,7 +71,7 @@
 					</li>
 					<li class="mr-4 lg:mr-8">
 						<nuxt-link
-							to="/questions-answers"
+							to="/faqs"
 							class="px-4 transition duration-150 ease-in-out opacity-50 hover:opacity-100"
 						>
 							Q&amp;A
@@ -133,10 +133,10 @@
 		>
 			<ul class="flex flex-col text-center text-black-900">
 				<li class="mb-4">
-					<nuxt-link class="px-6 py-2" to="/artists">Artists</nuxt-link>
+					<nuxt-link class="px-6 py-2" to="/our-artists">Artists</nuxt-link>
 				</li>
 				<li class="mb-4">
-					<nuxt-link class="px-6 py-2" to="/questions-answers">Q&amp;A</nuxt-link>
+					<nuxt-link class="px-6 py-2" to="/faqs">Q&amp;A</nuxt-link>
 				</li>
 				<li class="mb-4">
 					<nuxt-link class="px-6 py-2" to="/tattoo-aftercare">Aftercare</nuxt-link>
