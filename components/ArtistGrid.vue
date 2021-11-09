@@ -12,7 +12,7 @@
 			class="hidden md:block absolute text-yellow-200 right-0 w-1/4 transform rotate-25 bottom-0  mr-24"
 		/>
 
-		<div class="max-w-3xl justify-center grid md:grid-cols-2 gap-12 mt-32 px-4">
+		<div class="max-w-3xl mx-auto justify-center grid md:grid-cols-2 gap-12 mt-32 px-4">
 			<h2 class="sr-only">Our Artists</h2>
 
 			<div :key="artist._uid" v-for="artist in block.artists" class="mb-6 md:mb-0">
