@@ -1,12 +1,15 @@
 <template>
-	<ul>
-		<li :key="item._uid" v-for="item in block.questionAnswer" class="question">
-			<h2>{{ item.Question }}</h2>
-			<div>
-				<p class="mb-4">{{ item.Answer }}</p>
-			</div>
-		</li>
-	</ul>
+	<!-- Temporary wrapping div with syles -->
+	<section>
+		<ul>
+			<li :key="item._uid" v-for="item in block.questionAnswer" class="question">
+				<h2>{{ item.Question }}</h2>
+				<div>
+					<p class="mb-4">{{ item.Answer }}</p>
+				</div>
+			</li>
+		</ul>
+	</section>
 </template>
 
 <script>
