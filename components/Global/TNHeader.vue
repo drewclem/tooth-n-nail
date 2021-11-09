@@ -1,48 +1,3 @@
-<script>
-	import HeaderBG from '@/assets/svg/HeaderBG';
-	import TNLogo from '@/assets/svg/TNLogo';
-	import FacebookIcon from '@/assets/svg/FacebookIcon';
-	import InstagramIcon from '@/assets/svg/InstagramIcon';
-	import PhoneIcon from '@/assets/svg/PhoneIcon';
-	import MobileMenuIcon from '@/assets/svg/MobileMenuIcon';
-
-	export default {
-		name: 'TNHeader',
-		components: {
-			HeaderBG,
-			TNLogo,
-			FacebookIcon,
-			InstagramIcon,
-			PhoneIcon,
-			MobileMenuIcon,
-		},
-		data() {
-			return {
-				navOpen: false,
-			};
-		},
-		watch: {
-			$route() {
-				this.navOpen = false;
-			},
-		},
-		computed: {
-			svgFilter() {
-				let filter = 'filter';
-				if (this.navOpen) {
-					filter = 'filter-active';
-				}
-				return filter;
-			},
-		},
-		methods: {
-			toggleMobileMenu() {
-				this.navOpen = !this.navOpen;
-			},
-		},
-	};
-</script>
-
 <template>
 	<header class="relative top-0 w-full bg-black-900">
 		<HeaderBG class="absolute hidden mt-2 text-yellow-200 header-bg lg:block yellow-under" />
@@ -54,43 +9,22 @@
 			class="relative flex items-center justify-between px-5 py-4 mx-auto lg:container bg-black-900 xxl:px-0 lg:py-2 z-1"
 		>
 			<nuxt-link to="/">
-				<TNLogo class="z-50 w-20 lg:w-24" />
+				<!-- <TNLogo class="z-50 w-20 lg:w-24" /> -->
+				<div class="z-50 w-20 lg:w-24">
+					<img :src="logo.filename" :alt="logo.alt" />
+				</div>
 			</nuxt-link>
 
 			<nav
 				class="hidden italic font-medium text-yellow-200 uppercase desktop-nav lg:block font-display lg:text-lg lg:ml-16"
 			>
 				<ul class="flex">
-					<li class="mr-4 lg:mr-8">
+					<li v-for="item in mainNav" :key="item._uid" class="mr-4 lg:mr-8">
 						<nuxt-link
-							to="/our-artists"
+							:to="item.link.cached_url"
 							class="px-4 transition duration-150 ease-in-out opacity-50 hover:opacity-100"
 						>
-							Artists
-						</nuxt-link>
-					</li>
-					<li class="mr-4 lg:mr-8">
-						<nuxt-link
-							to="/faqs"
-							class="px-4 transition duration-150 ease-in-out opacity-50 hover:opacity-100"
-						>
-							Q&amp;A
-						</nuxt-link>
-					</li>
-					<li class="mr-4 lg:mr-8">
-						<nuxt-link
-							to="/tattoo-aftercare"
-							class="px-4 transition duration-150 ease-in-out opacity-50 hover:opacity-100"
-						>
-							Aftercare
-						</nuxt-link>
-					</li>
-					<li>
-						<nuxt-link
-							to="/contact"
-							class="px-4 transition duration-150 ease-in-out opacity-50 hover:opacity-100"
-						>
-							Contact
+							{{ item.displayText }}
 						</nuxt-link>
 					</li>
 				</ul>
@@ -99,21 +33,17 @@
 			<div class="items-center hidden text-sm social-icons lg:flex">
 				<a
 					class="items-center hidden mr-4 italic tracking-wide text-yellow-200 transition duration-150 ease-in-out opacity-50 cursor-pointer lg:flex hover:opacity-100 lg:mr-8 font-display"
-					href="tel:478-257-6155"
+					:href="`tel:${phoneNumber}`"
 				>
 					<PhoneIcon class="w-3 mt-px mr-2 opacity-50" />
-					478-257-6155
+					{{ phoneNumber }}
 				</a>
 
-				<!-- <a
-					class="mr-4 transition duration-150 ease-in-out opacity-75 cursor-pointer hover:opacity-100"
-				>
-					<FacebookIcon class="w-3 text-yellow-200" />
-				</a> -->
-
 				<a
+					v-for="link in socialLinks"
+					:key="link._uid"
 					class="mr-4 transition duration-150 ease-in-out opacity-75 cursor-pointer hover:opacity-100"
-					href="https://www.instagram.com/tntparlour/"
+					:href="link.url"
 				>
 					<InstagramIcon class="w-4 text-yellow-200" />
 				</a>
@@ -153,6 +83,53 @@
 		</nav>
 	</header>
 </template>
+
+<script>
+	import { mapState } from 'vuex';
+	import HeaderBG from '@/assets/svg/HeaderBG';
+	import TNLogo from '@/assets/svg/TNLogo';
+	import FacebookIcon from '@/assets/svg/FacebookIcon';
+	import InstagramIcon from '@/assets/svg/InstagramIcon';
+	import PhoneIcon from '@/assets/svg/PhoneIcon';
+	import MobileMenuIcon from '@/assets/svg/MobileMenuIcon';
+
+	export default {
+		name: 'TNHeader',
+		components: {
+			HeaderBG,
+			TNLogo,
+			FacebookIcon,
+			InstagramIcon,
+			PhoneIcon,
+			MobileMenuIcon,
+		},
+		data() {
+			return {
+				navOpen: false,
+			};
+		},
+		watch: {
+			$route() {
+				this.navOpen = false;
+			},
+		},
+		computed: {
+			svgFilter() {
+				let filter = 'filter';
+				if (this.navOpen) {
+					filter = 'filter-active';
+				}
+				return filter;
+			},
+			...mapState('global', ['logo', 'mainNav', 'phoneNumber', 'socialLinks']),
+		},
+		methods: {
+			toggleMobileMenu() {
+				this.navOpen = !this.navOpen;
+			},
+		},
+	};
+</script>
 
 <style lang="postcss" scoped>
 	header {

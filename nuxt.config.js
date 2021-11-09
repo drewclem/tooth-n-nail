@@ -1,6 +1,16 @@
+require('dotenv').config();
+
+const isPreview = process.env.NODE_ENV === 'development';
+
 export default {
 	// Target (https://go.nuxtjs.dev/config-target)
 	target: 'static',
+
+	env: {
+		NODE_ENV: process.env.NODE_ENV,
+		ACCESS_TOKEN: process.env.ACCESS_TOKEN,
+		PREVIEW: isPreview,
+	},
 
 	// Global page headers (https://go.nuxtjs.dev/config-head)
 	head: {
@@ -31,10 +41,11 @@ export default {
 	// Modules (https://go.nuxtjs.dev/config-modules)
 	modules: [
 		'@nuxtjs/svg',
+		'@nuxtjs/axios',
 		[
 			'storyblok-nuxt',
 			{
-				accessToken: 'ABtcIxf54vW2ckAQbs5M6wtt',
+				accessToken: process.env.ACCESS_TOKEN,
 				cacheProvider: 'memory',
 			},
 		],
