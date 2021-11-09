@@ -1,15 +1,3 @@
-<script>
-	import TNHeader from '@/components/Global/TNHeader';
-	import TNFooter from '@/components/Global/TNFooter';
-
-	export default {
-		components: {
-			TNHeader,
-			TNFooter,
-		},
-	};
-</script>
-
 <template>
 	<div id="app" class="overflow-x-hidden">
 		<TNHeader />
@@ -21,3 +9,15 @@
 		<TnFooter />
 	</div>
 </template>
+
+<script>
+	import TNHeader from '@/components/Global/TNHeader';
+	import TNFooter from '@/components/Global/TNFooter';
+
+	export default {
+		components: {
+			TNHeader,
+			TNFooter,
+		},
+	};
+</script>

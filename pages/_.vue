@@ -4,6 +4,7 @@
 			v-if="story.content.component"
 			:key="story.content._uid"
 			:block="story.content"
+			:page-name="story.name"
 			:is="story.content.component"
 		/>
 	</section>
@@ -40,32 +41,44 @@
 				}
 			);
 		},
-		asyncData(context) {
-			// We are getting only the draft version of the content in this example.
-			// In real world project you should ask for correct version of the content
-			// according to the environment you are deploying to.
-			// const version = context.query._storyblok || context.isDev ? 'draft' : 'published'
-
+		async asyncData(context) {
 			const fullSlug =
 				context.route.path == '/' || context.route.path == '' ? 'home' : context.route.path;
 
-			// Load the JSON from the API - loadig the home content (index page)
-			return context.app.$storyapi
-				.get(`cdn/stories/${fullSlug}`, {
-					version: 'draft',
-				})
-				.then((res) => {
-					return res.data;
-				})
-				.catch((res) => {
-					if (!res.response) {
-						console.error(res);
-						context.error({ statusCode: 404, message: 'Failed to receive content form api' });
-					} else {
-						console.error(res.response.data);
-						context.error({ statusCode: res.response.status, message: res.response.data });
-					}
+			const version =
+				context.query._storyblok || context.query.preview || context.isDev || context.env.PREVIEW
+					? 'draft'
+					: 'published';
+
+			let res;
+
+			try {
+				res = await context.app.$storyapi.get(`cdn/stories/${fullSlug}`, {
+					version,
 				});
+				return res.data;
+			} catch (e) {
+				if (!e.response) {
+					console.error(res);
+					context.error({
+						statusCode: 404,
+						message: 'Failed to receive content from api',
+					});
+				}
+			}
+		},
+		async fetch(context) {
+			// check if global data has been loaded
+			// this method found in Storyblok + Nuxt tutorial
+			const version = context.query._storyblok || context.env.PREVIEW ? 'draft' : 'published';
+
+			if (!context.store.state.global.loaded) {
+				const globalsRes = await context.app.$storyapi.get('cdn/stories/navigation', {
+					version,
+				});
+				context.store.commit('global/setGlobals', globalsRes.data.story.content);
+				context.store.commit('global/setLoaded', true);
+			}
 		},
 	};
 </script>
