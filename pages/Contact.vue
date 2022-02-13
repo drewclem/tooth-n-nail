@@ -28,14 +28,19 @@
 						<label class="mb-2" for="name">
 							Name
 						</label>
-						<input id="name" type="text" class="border border-black-900 p-2" />
+						<input id="name" type="text" class="border border-black-900 p-2" v-model="form.name" />
 					</div>
 
 					<div class="flex flex-col mb-6">
 						<label class="mb-2" for="email">
 							Email
 						</label>
-						<input id="email" type="text" class="border border-black-900 p-2" />
+						<input
+							id="email"
+							type="text"
+							class="border border-black-900 p-2"
+							v-model="form.email"
+						/>
 					</div>
 				</div>
 
@@ -43,7 +48,12 @@
 					<label class="mb-2" for="message">
 						Message
 					</label>
-					<textarea id="message" rows="4" class="border border-black-900 p-2" />
+					<textarea
+						id="message"
+						rows="4"
+						class="border border-black-900 p-2"
+						v-model="form.message"
+					/>
 				</div>
 
 				<p class="hidden">
@@ -102,7 +112,6 @@
 
 							this.form.name = '';
 							this.form.email = '';
-							this.form.phone = '';
 							this.form.message = '';
 						} else {
 							this.responseMessage = 'Oops! Looks like something went wrong. Please try again!';
