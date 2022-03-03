@@ -35,7 +35,10 @@
 					>
 						<div>
 							<BannerHeading>Micah Freeman</BannerHeading>
-							<div class="items-center hidden text-sm social-icons lg:flex mt-3 mb-8">
+							<div class="items-center hidden text-sm social-icons lg:flex mt-3 mb-8">								
+								<a class="mr-4 transition duration-150 ease-in-out cursor-pointer" href="https://www.facebook.com/tattooins.bymicah/">
+									<FacebookIcon class="w-4 text-yellow-500" />
+								</a>
 
 								<a class="mr-4 transition duration-150 ease-in-out cursor-pointer" href="https://www.instagram.com/m_freemantattooer/">
 									<InstagramIcon class="w-5 text-yellow-500" />
