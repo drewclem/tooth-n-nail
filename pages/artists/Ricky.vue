@@ -36,11 +36,7 @@
 						<div>
 							<BannerHeading>Ricky Lester</BannerHeading>
 							<div class="items-center hidden text-sm social-icons lg:flex mt-3 mb-8">
-								<a class="mr-4 transition duration-150 ease-in-out cursor-pointer">
-									<FacebookIcon class="w-4 text-yellow-500" />
-								</a>
-
-								<a class="mr-4 transition duration-150 ease-in-out cursor-pointer">
+								<a class="mr-4 transition duration-150 ease-in-out cursor-pointer" href="https://www.instagram.com/greasy.dreams/">
 									<InstagramIcon class="w-5 text-yellow-500" />
 								</a>
 							</div>
@@ -49,9 +45,7 @@
 								<p class="text-xl italic opacity-50">4 Years Experience</p>
 								<p class="mb-8 text-3xl font-bold font-display italic">Traditional/Black work</p>
 								<p class="opacity-75 md:w-3/4">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum exercitationem
-									libero, necessitatibus ex quibusdam odio ad. Illo distinctio culpa odio quos dicta
-									dolorem, dolorum deserunt laudantium error numquam, perferendis natus.</p
+									Ricky is the shop's resident black work specialist. He blends fine-line, stippling, negative-space and composition seamlessly to create truly unique pieces for his clients to proudly wear. He also enjoys and excels and traditional style tattoos as well, and often blends that with his black work too.</p
 								>
 							</div>
 						</div>
@@ -73,7 +67,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (1).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -81,7 +75,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (2).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -89,7 +83,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (3).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -97,7 +91,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (4).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -105,7 +99,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (5).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -113,7 +107,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (6).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -121,7 +115,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (7).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -129,7 +123,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (8).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -137,7 +131,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (9).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -145,7 +139,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (10).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -153,7 +147,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (11).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -161,7 +155,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (12).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -169,7 +163,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (13).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -177,7 +171,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (14).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -185,7 +179,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (15).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -193,7 +187,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (16).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -201,7 +195,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (17).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -209,7 +203,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (18).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -217,7 +211,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (19).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -225,7 +219,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (20).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -233,7 +227,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (21).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -241,7 +235,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (22).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -249,7 +243,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (23).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -257,7 +251,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (24).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -265,7 +259,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (25).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -273,7 +267,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (26).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -281,7 +275,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (27).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -289,7 +283,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (28).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -297,7 +291,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (29).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -305,7 +299,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (30).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -313,7 +307,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (31).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -321,7 +315,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (32).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -329,7 +323,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (33).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -337,7 +331,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (34).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -345,7 +339,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (35).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -353,7 +347,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (36).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -361,7 +355,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (37).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -369,7 +363,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (38).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -377,7 +371,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (39).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -385,7 +379,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (40).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -393,7 +387,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (41).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -401,7 +395,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (42).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -409,7 +403,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (43).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -417,7 +411,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (44).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -425,7 +419,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (45).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -433,7 +427,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (46).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -441,7 +435,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (47).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -449,7 +443,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (48).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -457,7 +451,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (49).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -465,7 +459,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (50).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -473,7 +467,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (51).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -481,7 +475,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/ricky/download (53).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 				</div>

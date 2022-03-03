@@ -84,7 +84,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (1).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -92,7 +92,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (2).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -100,7 +100,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (3).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -108,7 +108,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (4).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -116,7 +116,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (5).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -124,7 +124,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (6).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -132,7 +132,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (7).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -140,7 +140,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (8).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -148,7 +148,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (9).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -156,7 +156,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (10).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -164,7 +164,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (11).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -172,7 +172,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (12).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -180,7 +180,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (13).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -188,7 +188,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (14).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -196,7 +196,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (15).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -204,7 +204,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (16).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -212,7 +212,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (17).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -220,7 +220,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (18).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -228,7 +228,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (19).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -236,7 +236,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (20).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -244,7 +244,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (21).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -252,7 +252,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (22).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -260,7 +260,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (23).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -268,7 +268,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (24).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -276,7 +276,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (25).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -284,7 +284,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (26).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -292,7 +292,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (27).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -300,7 +300,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (28).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -308,7 +308,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (29).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -316,7 +316,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (30).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -324,7 +324,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (31).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -332,7 +332,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (32).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -340,7 +340,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (33).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -348,7 +348,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (34).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -356,7 +356,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (35).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -364,7 +364,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (36).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -372,7 +372,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (37).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -380,7 +380,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (38).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -388,7 +388,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (39).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -396,7 +396,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (40).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -404,7 +404,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (41).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -412,7 +412,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (42).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -420,7 +420,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (43).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -428,7 +428,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (44).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -436,7 +436,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (45).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -444,7 +444,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (46).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -452,7 +452,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (47).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -460,7 +460,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (48).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -468,7 +468,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (49).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -476,7 +476,7 @@
 							class="w-full"
 							src="../../assets/images/artists/kevin/download (50).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -484,7 +484,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kevin/download (51).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -492,7 +492,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kevin/download (53).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 				</div>

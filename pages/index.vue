@@ -40,7 +40,7 @@
 					<img
 						src="~assets/images/tattoo.jpg"
 						alt="Tattoo of a Jason Vorhees caricature underwater"
-						lazy
+						loading="lazy"
 					/>
 				</div>
 

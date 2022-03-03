@@ -28,7 +28,7 @@
 						<label class="mb-2" for="name">
 							Name
 						</label>
-						<input id="name" type="text" class="border border-black-900 p-2" v-model="form.name" />
+						<input id="name" type="text" class="border border-black-900 p-2" v-model="form.name" required/>
 					</div>
 
 					<div class="flex flex-col mb-6">
@@ -40,6 +40,7 @@
 							type="text"
 							class="border border-black-900 p-2"
 							v-model="form.email"
+							required
 						/>
 					</div>
 				</div>
@@ -53,6 +54,7 @@
 						rows="4"
 						class="border border-black-900 p-2"
 						v-model="form.message"
+						required
 					/>
 				</div>
 

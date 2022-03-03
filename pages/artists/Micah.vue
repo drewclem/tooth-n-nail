@@ -36,11 +36,8 @@
 						<div>
 							<BannerHeading>Micah Freeman</BannerHeading>
 							<div class="items-center hidden text-sm social-icons lg:flex mt-3 mb-8">
-								<a class="mr-4 transition duration-150 ease-in-out cursor-pointer">
-									<FacebookIcon class="w-4 text-yellow-500" />
-								</a>
 
-								<a class="mr-4 transition duration-150 ease-in-out cursor-pointer">
+								<a class="mr-4 transition duration-150 ease-in-out cursor-pointer" href="https://www.instagram.com/m_freemantattooer/">
 									<InstagramIcon class="w-5 text-yellow-500" />
 								</a>
 							</div>
@@ -51,9 +48,7 @@
 									>Illustrative/Neo-traditional</p
 								>
 								<p class="opacity-75 md:w-3/4">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum exercitationem
-									libero, necessitatibus ex quibusdam odio ad. Illo distinctio culpa odio quos dicta
-									dolorem, dolorum deserunt laudantium error numquam, perferendis natus.</p
+									Micah is a middle Georgia native whose specialty is being able to provide whatever style his clients want. He enjoys all styles of tattooing and is able to execute all of them flawlessly. Black &amp; gray, traditional, realism, neo-traditional- he does it all, and he does it very well!</p
 								>
 							</div>
 						</div>
@@ -75,7 +70,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/micah/download (1).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -83,7 +78,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/micah/download (2).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -91,7 +86,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/micah/download (3).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -99,7 +94,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/micah/download (4).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -107,7 +102,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/micah/download (5).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -115,7 +110,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/micah/download (6).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -123,7 +118,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/micah/download (7).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -131,7 +126,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/micah/download (8).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -139,7 +134,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/micah/download (9).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -147,7 +142,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/micah/download (10).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -155,7 +150,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/micah/download (11).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -163,7 +158,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/micah/download (12).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -171,7 +166,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/micah/download (13).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -179,7 +174,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/micah/download (14).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -187,7 +182,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/micah/download (15).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -195,7 +190,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/micah/download (16).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -203,7 +198,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/micah/download (17).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -211,7 +206,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/micah/download (18).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -219,7 +214,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/micah/download (19).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -227,7 +222,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/micah/download (20).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 				</div>

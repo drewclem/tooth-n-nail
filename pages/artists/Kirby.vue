@@ -36,11 +36,8 @@
 						<div>
 							<BannerHeading>Jonathan Kirby</BannerHeading>
 							<div class="items-center hidden text-sm social-icons lg:flex mt-3 mb-8">
-								<a class="mr-4 transition duration-150 ease-in-out cursor-pointer">
-									<FacebookIcon class="w-4 text-yellow-500" />
-								</a>
 
-								<a class="mr-4 transition duration-150 ease-in-out cursor-pointer">
+								<a class="mr-4 transition duration-150 ease-in-out cursor-pointer" href="https://www.instagram.com/jkirbyxiii/">
 									<InstagramIcon class="w-5 text-yellow-500" />
 								</a>
 							</div>
@@ -51,15 +48,13 @@
 									>Traditional/Neo-traditional</p
 								>
 								<p class="opacity-75 md:w-3/4">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum exercitationem
-									libero, necessitatibus ex quibusdam odio ad. Illo distinctio culpa odio quos dicta
-									dolorem, dolorum deserunt laudantium error numquam, perferendis natus.</p
+									Jonathan, another middle Georgia native, has spent his time as a tattoo artist sharpening his skills at executing traditional and neo-traditional tattoos to absolute perfection. Bold will hold, and Jonathan's work encapsulates that mantra with color palettes and compositions that accent not only the art, but where the art is placed.</p
 								>
 							</div>
 						</div>
 
 						<div class="relative mt-12 md:mt-0 z-50">
-							<img src="../../assets/images/artists/kirby-cutout.png" class="w-full" />
+							<img src="../../assets/images/artists/kirby-cutout.png" class="w-full" loading="lazy"/>
 						</div>
 					</div>
 
@@ -75,7 +70,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (1).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -83,7 +78,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (2).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -91,7 +86,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (3).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -99,7 +94,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (4).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -107,7 +102,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (5).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -115,7 +110,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (6).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -123,7 +118,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (7).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -131,7 +126,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (8).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -139,7 +134,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (9).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -147,7 +142,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (10).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -155,7 +150,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (11).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -163,7 +158,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (12).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -171,7 +166,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (13).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -179,7 +174,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (14).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -187,7 +182,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (15).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -195,7 +190,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (16).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -203,7 +198,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (17).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -211,7 +206,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (18).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -219,7 +214,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (19).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -227,7 +222,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (20).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -235,7 +230,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (21).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -243,7 +238,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (22).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -251,7 +246,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (23).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -259,7 +254,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (24).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -267,7 +262,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (25).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -275,7 +270,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (26).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -283,7 +278,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (27).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -291,7 +286,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (28).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -299,7 +294,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (29).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -307,7 +302,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (30).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -315,7 +310,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (31).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -323,7 +318,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (32).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -331,7 +326,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (33).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -339,7 +334,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (34).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -347,7 +342,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (35).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -355,7 +350,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (36).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -363,7 +358,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (37).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -371,7 +366,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (38).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -379,7 +374,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (39).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -387,7 +382,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (40).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -395,7 +390,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (41).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -403,7 +398,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (42).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -411,7 +406,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (43).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -419,7 +414,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (44).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -427,7 +422,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (45).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -435,7 +430,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (46).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -443,7 +438,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (47).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -451,7 +446,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (48).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -459,7 +454,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (49).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -467,7 +462,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (50).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -475,7 +470,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (51).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 					<div class="h-64 overflow-hidden">
@@ -483,7 +478,7 @@
 							class="w-full h-full object-cover"
 							src="../../assets/images/artists/kirby/download (53).png"
 							alt="tattoo"
-							lazy
+							loading="lazy"
 						/>
 					</div>
 				</div>
