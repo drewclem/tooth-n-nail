@@ -36,25 +36,35 @@
 						<div>
 							<BannerHeading>Jonathan Kirby</BannerHeading>
 							<div class="items-center hidden text-sm social-icons lg:flex mt-3 mb-8">
-
-								<a class="mr-4 transition duration-150 ease-in-out cursor-pointer" href="https://www.instagram.com/jkirbyxiii/">
+								<a
+									class="mr-4 transition duration-150 ease-in-out cursor-pointer"
+									href="https://www.instagram.com/jkirbyxiii/"
+								>
 									<InstagramIcon class="w-5 text-yellow-500" />
 								</a>
 							</div>
 
 							<div class="text-black-900">
-								<p class="text-xl italic opacity-50">4 Years Experience</p>
+								<p class="text-xl italic opacity-50">12 Years Experience</p>
 								<p class="mb-8 text-3xl font-bold font-display italic"
 									>Traditional/Neo-traditional</p
 								>
 								<p class="opacity-75 md:w-3/4">
-									Jonathan, another middle Georgia native, has spent his time as a tattoo artist sharpening his skills at executing traditional and neo-traditional tattoos to absolute perfection. Bold will hold, and Jonathan's work encapsulates that mantra with color palettes and compositions that accent not only the art, but where the art is placed.</p
+									Jonathan, another middle Georgia native, has spent his time as a tattoo artist
+									sharpening his skills at executing traditional and neo-traditional tattoos to
+									absolute perfection. Bold will hold, and Jonathan's work encapsulates that mantra
+									with color palettes and compositions that accent not only the art, but where the
+									art is placed.</p
 								>
 							</div>
 						</div>
 
 						<div class="relative mt-12 md:mt-0 z-50">
-							<img src="../../assets/images/artists/kirby-cutout.png" class="w-full" loading="lazy"/>
+							<img
+								src="../../assets/images/artists/kirby-cutout.png"
+								class="w-full"
+								loading="lazy"
+							/>
 						</div>
 					</div>
 

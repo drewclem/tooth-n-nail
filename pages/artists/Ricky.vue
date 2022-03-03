@@ -36,16 +36,22 @@
 						<div>
 							<BannerHeading>Ricky Lester</BannerHeading>
 							<div class="items-center hidden text-sm social-icons lg:flex mt-3 mb-8">
-								<a class="mr-4 transition duration-150 ease-in-out cursor-pointer" href="https://www.instagram.com/greasy.dreams/">
+								<a
+									class="mr-4 transition duration-150 ease-in-out cursor-pointer"
+									href="https://www.instagram.com/greasy.dreams/"
+								>
 									<InstagramIcon class="w-5 text-yellow-500" />
 								</a>
 							</div>
 
 							<div class="text-black-900">
-								<p class="text-xl italic opacity-50">4 Years Experience</p>
+								<p class="text-xl italic opacity-50">5 Years Experience</p>
 								<p class="mb-8 text-3xl font-bold font-display italic">Traditional/Black work</p>
 								<p class="opacity-75 md:w-3/4">
-									Ricky is the shop's resident black work specialist. He blends fine-line, stippling, negative-space and composition seamlessly to create truly unique pieces for his clients to proudly wear. He also enjoys and excels and traditional style tattoos as well, and often blends that with his black work too.</p
+									Ricky is the shop's resident black work specialist. He blends fine-line,
+									stippling, negative-space and composition seamlessly to create truly unique pieces
+									for his clients to proudly wear. He also enjoys and excels and traditional style
+									tattoos as well, and often blends that with his black work too.</p
 								>
 							</div>
 						</div>

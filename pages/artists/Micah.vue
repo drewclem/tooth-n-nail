@@ -35,23 +35,32 @@
 					>
 						<div>
 							<BannerHeading>Micah Freeman</BannerHeading>
-							<div class="items-center hidden text-sm social-icons lg:flex mt-3 mb-8">								
-								<a class="mr-4 transition duration-150 ease-in-out cursor-pointer" href="https://www.facebook.com/tattooins.bymicah/">
+							<div class="items-center hidden text-sm social-icons lg:flex mt-3 mb-8">
+								<a
+									class="mr-4 transition duration-150 ease-in-out cursor-pointer"
+									href="https://www.facebook.com/tattooins.bymicah/"
+								>
 									<FacebookIcon class="w-4 text-yellow-500" />
 								</a>
 
-								<a class="mr-4 transition duration-150 ease-in-out cursor-pointer" href="https://www.instagram.com/m_freemantattooer/">
+								<a
+									class="mr-4 transition duration-150 ease-in-out cursor-pointer"
+									href="https://www.instagram.com/m_freemantattooer/"
+								>
 									<InstagramIcon class="w-5 text-yellow-500" />
 								</a>
 							</div>
 
 							<div class="text-black-900">
-								<p class="text-xl italic opacity-50">4 Years Experience</p>
+								<p class="text-xl italic opacity-50">10 Years Experience</p>
 								<p class="mb-8 text-3xl font-bold font-display italic"
 									>Illustrative/Neo-traditional</p
 								>
 								<p class="opacity-75 md:w-3/4">
-									Micah is a middle Georgia native whose specialty is being able to provide whatever style his clients want. He enjoys all styles of tattooing and is able to execute all of them flawlessly. Black &amp; gray, traditional, realism, neo-traditional- he does it all, and he does it very well!</p
+									Micah is a middle Georgia native whose specialty is being able to provide whatever
+									style his clients want. He enjoys all styles of tattooing and is able to execute
+									all of them flawlessly. Black &amp; gray, traditional, realism, neo-traditional-
+									he does it all, and he does it very well!</p
 								>
 							</div>
 						</div>
