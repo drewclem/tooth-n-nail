@@ -48,7 +48,7 @@
 					class="text-center uppercase font-display text-black-900 md:text-left md:ml-10 lg:ml-0 z-50"
 				>
 					<h1 class="text-shadow relative mb-5 text-4xl leading-tight lg:text-6xl font-bold">
-						Lowbrow Know How
+						Lowbrow with<br />Know How
 					</h1>
 
 					<p
