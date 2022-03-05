@@ -58,7 +58,8 @@
 						Quality, Clean, &amp; Professional Tattooing.
 					</p>
 
-					<button class="btn"><nuxt-link to="/contact">Request Consultation</nuxt-link></button>
+					<button class="btn"><a 
+					href="tel:478-257-6155">Request Consultation</button>
 				</div>
 			</div>
 		</section>
