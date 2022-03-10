@@ -31,17 +31,17 @@ export default {
 			},
 			{
 				hid: 'twitter:url',
-				proptery: 'twitter:url',
+				name: 'twitter:url',
 				content: 'https://tntparlour.com',
 			},
 			{
 				hid: 'twitter:title',
-				property: 'twitter:title',
+				name: 'twitter:title',
 				content: 'Tooth & Nail | Tattoos',
 			},
 			{
 				hid: 'twitter:description',
-				property: 'twitter:description',
+				name: 'twitter:description',
 				content: "Macon Georgia's premier tattoo parlour. Lowbrow with know how.",
 			},
 			{
@@ -51,7 +51,7 @@ export default {
 			},
 			{
 				hid: 'twitter:image',
-				property: 'twitter:image',
+				name: 'twitter:image',
 				content: 'https://tntparlour.com/og-image.png',
 			},
 		],
