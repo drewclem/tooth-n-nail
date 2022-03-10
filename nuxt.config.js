@@ -52,7 +52,7 @@ export default {
 			{
 				hid: 'twitter:image',
 				property: 'twitter:image',
-				content: '/og-image.png',
+				content: 'tntparlour.com/og-image.png',
 			},
 		],
 		link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
