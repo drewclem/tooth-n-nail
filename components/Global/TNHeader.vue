@@ -99,10 +99,10 @@
 			<div class="items-center hidden text-sm social-icons lg:flex">
 				<a
 					class="items-center hidden mr-4 italic tracking-wide text-yellow-200 transition duration-150 ease-in-out opacity-50 cursor-pointer lg:flex hover:opacity-100 lg:mr-8 font-display"
-					href="tel:478-257-6155"
+					href="tel:478-259-1829"
 				>
 					<PhoneIcon class="w-3 mt-px mr-2 opacity-50" />
-					478-257-6155
+					478-259-1829
 				</a>
 
 				<!-- <a
@@ -142,7 +142,7 @@
 					<nuxt-link class="px-6 py-2" to="/aftercare">Aftercare</nuxt-link>
 				</li>
 				<li>
-					<a href="tel:478-257-6155">Contact Us</a>
+					<a href="tel:478-259-1829">Contact Us</a>
 				</li>
 			</ul>
 
